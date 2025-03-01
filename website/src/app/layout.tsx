@@ -30,7 +30,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={"${geistSans.variable} ${geistMono.variable} antialiased bg-allfour bg-cover bg-center min-h-screen"}
       >
         <div className="mx-auto w-full max-w-7xl">
           <Header />
