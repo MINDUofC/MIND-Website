@@ -1,8 +1,9 @@
 import React from 'react';
-import localFont from "next/font/local";
+import { Montserrat } from '@next/font/google';
 
-const hussarbold = localFont({
-    src: "/fonts/hussar-bold.woff2",
+const montserrat = Montserrat({
+    subsets: ['latin'],
+    weight: ['400', '600'],
 });
 
 export const metadata = {
@@ -11,9 +12,11 @@ export const metadata = {
 
 export default function Home() {
     return (
-        <div className="bg-allfour min-h-screen w-full bg-cover bg-center bg-no-repeat p-8">
-            <h2>Home</h2>
-            <p>Hello thsi tsadf</p>
-        </div>
+        <main className={montserrat.className}>
+            <div className="bg-allfour min-h-screen w-full bg-cover bg-center bg-no-repeat p-8">
+                <h2>Home</h2>
+                <p>Hello thsi tsadf</p>
+            </div>
+        </main>
     );
 }
