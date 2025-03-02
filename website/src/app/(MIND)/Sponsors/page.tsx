@@ -3,5 +3,9 @@ export const metadata = {
 }
 
 export default function Sponsors() {
-    return <h2>Sponsors</h2>
+    return (
+        <div className="bg-grey min-h-screen w-full bg-cover bg-center bg-no-repeat">
+            <h2>Sponsors</h2>
+        </div>
+    )
 }

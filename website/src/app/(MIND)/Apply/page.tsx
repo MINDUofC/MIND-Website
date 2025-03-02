@@ -3,5 +3,9 @@ export const metadata = {
 }
 
 export default function Apply() {
-    return <h2>Apply</h2>
+    return (
+        <div className="bg-dark-blue min-h-screen w-full bg-cover bg-center bg-no-repeat">
+            <h2>Apply</h2>
+        </div>
+    )
 }

@@ -12,6 +12,13 @@ const config: Config = {
 	extend: {
 		backgroundImage: {
 			'allfour': "url('/images/allfour.png')",
+			'right-left': "url('/images/allfour(right-left).png')",
+			'blue': "url('/images/blue.png')",
+			'dark-blue': "url('/images/dark-blue.png')",
+			'light-blue': "url('/images/light-blue.png')",
+			'grey-blue': "url('/images/grey-blue.png')",
+			'grey': "url('/images/grey.png')",
+			'light-blue(u-d)': "url('/images/light-blue(upsidedown).png')",
 		},
 		colors: {
 			background: 'hsl(var(--background))',

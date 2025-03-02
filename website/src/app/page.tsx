@@ -6,9 +6,9 @@ export const metadata = {
 
 export default function Home() {
     return (
-        <div className="bg-hommme mini-h-screen">
+        <div className="bg-allfour min-h-screen w-full bg-cover bg-center bg-no-repeat">
             <h2>Home</h2>
-            <p>H</p>
+            <h1>H</h1>
         </div>
     );
 }

@@ -3,5 +3,10 @@ export const metadata = {
 }
 
 export default function Contact() {
-    return <h2>Contact us</h2>
+    return (
+        <div className="bg-grey-blue min-h-screen w-full bg-cover bg-center bg-no-repeat">
+            <h2>Contact us</h2>
+        </div>
+    
+)
 }

@@ -3,5 +3,10 @@ export const metadata = {
 }
 
 export default function Projects() {
-    return <h2>Projects</h2>
+    return (
+        <div className="bg-blue min-h-screen w-full bg-cover bg-center bg-no-repeat">
+            <h2>Projects</h2>
+        </div>
+
+    )
 }
