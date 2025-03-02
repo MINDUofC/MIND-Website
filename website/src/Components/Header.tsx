@@ -9,7 +9,7 @@ export function Header() {
                 <div className="flex items-center gap-2">
                     <NavButton href="/" label="Home" />
                     <Link href="/" className="flex justify-center items-center gap-2 ml-0" title="Home">
-                        <h1 className="hidden sm:block text-xl font-bold m-0 mt-1">
+                        <h1 className="hidden sm:block text-xl font-bold m-0 mt-1 ">
                             MIND
                         </h1>
                     </Link>
