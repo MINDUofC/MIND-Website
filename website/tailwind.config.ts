@@ -19,6 +19,11 @@ const config: Config = {
 			'grey-blue': "url('/images/grey-blue.png')",
 			'grey': "url('/images/grey.png')",
 			'light-blue(u-d)': "url('/images/light-blue(upsidedown).png')",
+			'plain-grey': "url('/images/gradient.png')",
+			'dark-grey': "url('/images/drak-grey.png')",
+		},
+		fontFamily: {
+			myFont: ['var(--font-myFont)'],
 		},
 		colors: {
 			background: 'hsl(var(--background))',

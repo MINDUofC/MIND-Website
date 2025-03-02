@@ -65,4 +65,91 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  @keyframes slideIn {
+    0% {
+        transform: translateY(-100vh) translateX(-50%);
+        opacity: 0;
+    }
+    80% {
+      transform: translateY(-264px) translateX(-50%); /* Move close to the final position */
+      opacity: 1; /* Fully visible */
+    }
+    90% {
+      transform: translateY(-297px) translateX(-50%); /* Overshoot the final position slightly */
+    }
+    100% {
+        transform: translateY(-330px) translateX(-50%);
+        opacity: 1;
+    }
+}
+
+.animate-logo {
+    animation: slideIn 1s ease-out, bounce 0.4s ease-out 0.9s forwards;;
+}
+
+/* Define the fade-in animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 2s forwards;
+}
+
+.fade-in-second {
+  opacity: 0;
+  animation: fadeInAnimation 2s forwards;
+  animation-delay: 1s; /* Delay of 1 second */
+}
+
+.fade-in-third {
+  opacity: 0;
+  animation: fadeInAnimation 2s forwards;
+  animation-delay: 2s; /* Delay of 2 seconds */
+}
+
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+  }
+}
+/* Define the slide-in and fade-in animation for the left image */
+.slide-in-left {
+  opacity: 0; /* Start invisible */
+  transform: translateX(-100vw); /* Start off the screen to the left */
+  animation: slideInFromLeft 1s ease-out forwards;
+}
+
+/* Define the slide-in and fade-in animation for the right image */
+.slide-in-right {
+  opacity: 0; /* Start invisible */
+  transform: translateX(100vw); /* Start off the screen to the right */
+  animation: slideInFromRight 1s ease-out forwards;
+}
+
+/* Keyframes for sliding in from the left */
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0; /* Initially invisible */
+    transform: translateX(-100vw); /* Start far left */
+  }
+  100% {
+    opacity: 1; /* Fade in */
+    transform: translateX(0), translateY(100%); /* End in normal position */
+  }
+}
+
+/* Keyframes for sliding in from the right */
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0; /* Initially invisible */
+    transform: translateX(100vw); /* Start far right */
+  }
+  100% {
+    opacity: 1; /* Fade in */
+    transform: translateX(0), translateY(100%); /* End in normal position */
+  }
+}
+
+
+
+
 }
