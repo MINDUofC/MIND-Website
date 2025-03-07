@@ -19,20 +19,19 @@ export default function Events() {
             <img src="/images/Events.png" alt="Events" className="object-contain absolute top-0 left-0 slide-in-left" style={{ width: '600px', height: 'auto', position: 'absolute', top: '190px', left: '50%', transform: 'translateX(-145%)' }} />
             <h2 className="font-bold text-7xl drop-shadow-lg fade-in"style={{ position: 'absolute', top: '70px', left: '50%', transform: 'translateX(-50%)', color: '#85C7F2' }}>What&apos;s New</h2>
 
-            <p className="font-semibold text-3xl drop-shadow-lg slide-in-left" style={{position: 'absolute', top: '200px', left: '63%', transform: 'translateX(-50%)', color: '#85C7F2' }}>Starting Our First Project - NeuroDrive</p>
+            <p className="font-semibold text-3xl drop-shadow-lg slide-in-left" style={{position: 'absolute', top: '200px', left: '63%', transform: 'translateX(-50%)', color: '#002960' }}>Starting Our First Project</p>
 
-            <p className="font-light text-xl drop-shadow-lg slide-in-right" style={{position: 'absolute', top: '265px', left: '65%', transform: 'translateX(-50%)', color: '#85C7F2'}}>
+            <p className="font-light text-xl drop-shadow-lg slide-in-right" style={{position: 'absolute', top: '265px', left: '65%', transform: 'translateX(-50%)', color: '#002960'}}>
                 You’ve heard of RC cars, but what about a BC car? MIND’s first project, 
                 named NeuroDrive, is a brain-controlled car that mirrors your movements—move  
                 your hand, and it follows! Using Brain-Computer Interface (BCI) tech, we’re 
                 turning brain signals into motion, taking a bold step in neuromuscular research. 
                 Wish us luck as we begin our development!
-                Wish us luck as we begin our development!
                 </p>
 
-            <p className="font-semibold text-3xl drop-shadow-lg slide-in-left" style={{position: 'absolute', top: '515px', left: '62%', transform: 'translateX(-50%)', color: '#85C7F2' }}>Winter 2025 - Upcoming Workshops!</p>
+            <p className="font-semibold text-3xl drop-shadow-lg slide-in-left" style={{position: 'absolute', top: '515px', left: '62%', transform: 'translateX(-50%)', color: '#002960' }}>Winter 2025 - Upcoming Workshops!</p>
 
-            <p className="font-light text-xl drop-shadow-lg slide-in-right" style={{position: 'absolute', top: '570px', left: '65%', transform: 'translateX(-50%)', color: '#85C7F2'}}>
+            <p className="font-light text-xl drop-shadow-lg slide-in-right" style={{position: 'absolute', top: '570px', left: '65%', transform: 'translateX(-50%)', color: '#002960'}}>
                 Kick off 2025 with MIND! This winter semester, we’re bringing you two
                 exciting workshops to dive into neurotechnology and signal processing.
                 Our first workshop on February 28 will cover Python fundamentals,
