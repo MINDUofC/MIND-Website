@@ -22,7 +22,7 @@ export function Header() {
                     </Link>
                 </div>
 
-                <div className=" font-bold flex ml-auto"> 
+                <div className=" font-bold flex ml-auto items-center"> 
                     {/* gap-6 sm:gap-6 ml-auto md:gap-8 lg:gap-10 items-center text-sm sm:text-base */}
 
                     <NavButton href="/About" label="About" />
