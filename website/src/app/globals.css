@@ -170,8 +170,6 @@
     height: auto;
   }
   .other-bar{
-    align-items: center;
-    display: flex;
     gap: 0.5rem; 
   }
   .logo-image {
@@ -1194,8 +1192,6 @@
     }
 
     .other-bar{
-      align-items: center;
-      display: flex;
       gap: 0.5rem; 
     }
 
