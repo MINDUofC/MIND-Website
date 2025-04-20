@@ -22,7 +22,7 @@ export function Header() {
                     </Link>
                 </div>
 
-                <div className=" ${myFont.variable} font-bold flex gap-6 sm:gap-6 ml-auto md:gap-8 lg:gap-10 items-center text-sm sm:text-base">
+                <div className=" ${myFont.variable} font-bold flex gap-6 sm:gap-6 ml-auto md:gap-8 lg:gap-10 items-center text-sm sm:text-base right-0">
 
                     <NavButton href="/About" label="About" />
 
