@@ -1,14 +1,7 @@
 import Link from 'next/link';
 import { NavButton } from "@/Components/NavButton";
-import localFont from "next/font/local";
-const myFont = localFont({ 
-    src: "/fonts/hussar-bold.ttf",
-    variable: "--font-myFont",
-    weight: "700",
+import { Montserrat } from 'next/font/google';
 
- });
-
-import { Montserrat } from '@next/font/google';
 const montserrat = Montserrat({
     subsets: ['latin'],
     weight: ['400', '600'],
