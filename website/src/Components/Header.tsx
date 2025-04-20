@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { NavButton } from "@/Components/NavButton";
 
-import { Montserrat } from '@next/font/google';
+import { Montserrat } from 'next/font/google';
 const montserrat = Montserrat({
     subsets: ['latin'],
     weight: ['400', '600'],
