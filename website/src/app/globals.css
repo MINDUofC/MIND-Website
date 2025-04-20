@@ -168,7 +168,7 @@
   .other-bar{
     align-items: center;
     display: flex;
-    gap: 0.5rem; 
+    gap: 3.5rem; 
   }
   .logo-image {
     width: 500px;
