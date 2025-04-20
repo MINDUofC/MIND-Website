@@ -1,5 +1,5 @@
 
-import { Montserrat } from '@next/font/google';
+import { Montserrat } from 'next/font/google';
 import { Button } from '@/Components/ui/button';
 
  const montserrat = Montserrat({

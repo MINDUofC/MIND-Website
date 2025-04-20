@@ -1,12 +1,5 @@
 import React from 'react';
-import { Montserrat } from '@next/font/google';
-import localFont from "next/font/local";
-const myFont = localFont({ 
-    src: "/fonts/hussar-bold.ttf",
-    variable: "--font-myFont",
-    weight: "700",
-
- });
+import { Montserrat } from 'next/font/google';
 
 const montserrat = Montserrat({
     subsets: ['latin'],
@@ -19,7 +12,7 @@ export const metadata = {
 
 export default function Home() {
     return (
-        <div className={`${montserrat.className} ${myFont.variable}`}>
+        <div className={`${montserrat.className}`}>
 
             <div className="bg-plain-grey w-full h-screen bg-cover bg-center bg-fixed flex p-8 relative h-screen overflow-hidden">
             <img src="/images/logo-transparent.png" alt="MIND Logo" className="object-contain absolute logo-image animate-logo"/>
