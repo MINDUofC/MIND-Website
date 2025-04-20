@@ -11,8 +11,8 @@ const montserrat = Montserrat({
 export function Header() {
     return(
         <main className={montserrat.className}>
-        <header className="animate-slide bg-background h-max p-2 border-b sticky top-0 z-20 other-bar">
-            <div className="flex h-max justify-between w-fullmax-w-screen-xl mx-auto px-6 other-bar">
+        <header className="animate-slide bg-background h-max p-2 border-b sticky top-0 right-0 z-20 other-bar">
+            <div className="flex h-max justify-between w-fullmax-w-screen-xl mx-auto right-0 px-6 other-bar">
                 <div className="flex items-center gap-3 font-bold other-bar">
                     <img src="/images/black-logo-transparent.png" alt="MIND Logo" className="object-contain w-[75px] sm:w-[35px] md:w-[75px] lg:w-[75px]" />
                     <Link href="/" className="flex justify-center items-center gap-2 ml-0" title="Home">
@@ -22,7 +22,7 @@ export function Header() {
                     </Link>
                 </div>
 
-                <div className=" ${myFont.variable} font-bold flex gap-6 sm:gap-6 ml-auto md:gap-8 lg:gap-10 items-center text-sm sm:text-base right-0">
+                <div className=" ${myFont.variable} font-bold flex gap-6 sm:gap-6 ml-auto md:gap-8 lg:gap-10 items-center text-sm sm:text-base right-75">
 
                     <NavButton href="/About" label="About" />
 
