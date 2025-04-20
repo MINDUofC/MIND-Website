@@ -10,7 +10,7 @@ export function NavButton({
     href,
 }: NavButtonProps) {
     return (
-        <Link href={href} className="flex gap-2 p-2 hover:bg-gray-200 rounded mx-2 hover:underline">
+        <Link href={href} className="flex gap-2 p-2 hover:bg-gray-200 rounded mx-2 ">
             <span>{label}</span>
         </Link>
     );
