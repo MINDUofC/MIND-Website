@@ -661,12 +661,12 @@
 
   /* Small Screens (max-width: 600px) */
   @media only screen and (max-width: 600px) {
-    .nav-bar{
+    /* .nav-bar{
       gap: -10px;
       font-size: 0.4rem;
       padding: 1px;
     
-    }
+    } */
     .other-bar{
       padding: 0px;
       gap : 0rem;
