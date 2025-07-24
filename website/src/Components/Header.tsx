@@ -12,7 +12,7 @@ export function Header() {
     return(
         <main className={montserrat.className}>
         <header className=" bg-backgroun ">
-            <div className="flex h-max justify-between w-fullmax-w-screen-xl mx-auto right-0 px-6 ">
+            <div className=" ">
                 <div className="flex items-center gap-3 font-bold other-bar ">
                     <img src="/images/black-logo-transparent.png" alt="MIND Logo" className="object-contain w-[75px] sm:w-[35px] md:w-[75px] lg:w-[75px]" />
                     <Link href="/" className="flex justify-center items-center gap-2 ml-0" title="Home">
@@ -48,4 +48,5 @@ export function Header() {
     )
 }
 
+            // <div className=" h-max justify-between w-fullmax-w-screen-xl mx-auto right-0 px-6 ">
 // animate-slide h-max p-2 border-b sticky top-0 right-0 z-20 other-bar
