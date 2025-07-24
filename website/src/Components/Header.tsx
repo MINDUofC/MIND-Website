@@ -22,7 +22,7 @@ export function Header() {
                     </Link>
 
                     <div className="hover:bg-gray-200 rounded mx-2"> 
-                        <NavButton href="/About" label=" &nbsp; About &nbsp; " />
+                        <NavButton href="/About" label="About &nbsp; " />
 
                         <NavButton href="/Team" label=" &nbsp; Team &nbsp; " />
 
@@ -34,7 +34,7 @@ export function Header() {
 
                         <NavButton href="/Sponsors" label=" &nbsp; Sponsors &nbsp; " />
 
-                        <NavButton href="/Contact" label=" &nbsp; Contact &nbsp; " />
+                        <NavButton href="/Contact" label=" &nbsp; Contact " />
 
                     </div>
 
