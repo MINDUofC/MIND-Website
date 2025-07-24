@@ -21,19 +21,23 @@ export function Header() {
                         </h1>
                     </Link>
 
-                    <NavButton href="/About" label=" &nbsp; About &nbsp; " />
+                    <div className="hover:bg-gray-200 rounded mx-2"> 
+                        <NavButton href="/About" label=" &nbsp; About &nbsp; " />
 
-                    <NavButton href="/Team" label=" &nbsp; Team &nbsp; " />
+                        <NavButton href="/Team" label=" &nbsp; Team &nbsp; " />
 
-                    <NavButton href="/Projects" label=" &nbsp; Projects &nbsp; " />
+                        <NavButton href="/Projects" label=" &nbsp; Projects &nbsp; " />
 
-                    <NavButton href="/Events" label=" &nbsp; Events &nbsp; " />
+                        <NavButton href="/Events" label=" &nbsp; Events &nbsp; " />
 
-                    <NavButton href="/Apply" label=" &nbsp; Apply &nbsp; " />
+                        <NavButton href="/Apply" label=" &nbsp; Apply &nbsp; " />
 
-                    <NavButton href="/Sponsors" label=" &nbsp; Sponsors &nbsp; " />
+                        <NavButton href="/Sponsors" label=" &nbsp; Sponsors &nbsp; " />
 
-                    <NavButton href="/Contact" label=" &nbsp; Contact &nbsp; " />
+                        <NavButton href="/Contact" label=" &nbsp; Contact &nbsp; " />
+
+                    </div>
+
                 </div>
             </div>
         </header>

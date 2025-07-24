@@ -10,7 +10,7 @@ export function NavButton({
     href,
 }: NavButtonProps) {
     return (
-        <Link href={href} className="">
+        <Link href={href} className=" ">
             <span>{label}</span>
         </Link>
     );
