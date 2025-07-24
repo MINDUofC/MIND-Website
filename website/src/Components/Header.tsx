@@ -13,7 +13,7 @@ export function Header() {
         <main className={montserrat.className}>
         <header className=" bg-backgroun ">
             <div className=" ">
-                <div className="flex items-center justify-between justify-evenly gap-x-96 font-bold ">
+                <div className="other-bar font-bold ">
                     <img src="/images/black-logo-transparent.png" alt="MIND Logo" className="object-contain w-[75px] sm:w-[35px] md:w-[75px] lg:w-[75px]" />
                     <Link href="/" className="flex justify-center items-center gap-2 ml-0" title="Home">
                         <h1 className=" sm:block text-xl font-bold m-0 mt-1 h-8 ">
@@ -21,19 +21,19 @@ export function Header() {
                         </h1>
                     </Link>
 
-                    <NavButton href="/About" label=" &nbsp; About" />
+                    <NavButton href="/About" label=" &nbsp; About &nbsp; " />
 
-                    <NavButton href="/Team" label="Team" />
+                    <NavButton href="/Team" label=" &nbsp; Team &nbsp; " />
 
-                    <NavButton href="/Projects" label="Projects" />
+                    <NavButton href="/Projects" label=" &nbsp; Projects &nbsp; " />
 
-                    <NavButton href="/Events" label="Events" />
+                    <NavButton href="/Events" label=" &nbsp; Events &nbsp; " />
 
-                    <NavButton href="/Apply" label="Apply" />
+                    <NavButton href="/Apply" label=" &nbsp; Apply &nbsp; " />
 
-                    <NavButton href="/Sponsors" label="Sponsors" />
+                    <NavButton href="/Sponsors" label=" &nbsp; Sponsors &nbsp; " />
 
-                    <NavButton href="/Contact" label="Contact" />
+                    <NavButton href="/Contact" label=" &nbsp; Contact &nbsp; " />
                 </div>
             </div>
         </header>
