@@ -20,10 +20,6 @@ export function Header() {
                             MIND
                         </h1>
                     </Link>
-                </div>
-
-                <div className=" "> 
-                    {/* gap-6 sm:gap-6 ml-auto md:gap-8 lg:gap-10 items-center text-sm sm:text-base */}
 
                     <NavButton href="/About" label="About" />
 
@@ -38,10 +34,7 @@ export function Header() {
                     <NavButton href="/Sponsors" label="Sponsors" />
 
                     <NavButton href="/Contact" label="Contact" />
-
-
                 </div>
-
             </div>
         </header>
         </main>
