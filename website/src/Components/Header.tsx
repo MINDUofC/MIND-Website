@@ -21,7 +21,7 @@ export function Header() {
                         </h1>
                     </Link>
 
-                    <div className="other-bar"> 
+                    <div className="other-bar sm:gap-6 ml-auto md:gap-8 lg:gap-10 items-center text-sm sm:text-base "> 
                         <NavButton href="/About" label=" &nbsp; About &nbsp; " />
 
                         <NavButton href="/Team" label=" &nbsp; Team &nbsp; " />
