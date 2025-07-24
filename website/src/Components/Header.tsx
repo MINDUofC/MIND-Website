@@ -27,7 +27,7 @@ export function Header() {
 
                     <NavButton href="/About" label="About" />
 
-                    <NavButton href="/Teamss" label="Team" />
+                    <NavButton href="/Team" label="Team" />
 
                     <NavButton href="/Projects" label="Projects" />
 
