@@ -21,7 +21,7 @@ export function Header() {
                         </h1>
                     </Link>
 
-                    <div className="hover:bg-gray-200 rounded mx-2"> 
+                    <div className="hover:bg-gray-200 rounded mx-2 other-bar"> 
                         <NavButton href="/About" label="About &nbsp; " />
 
                         <NavButton href="/Team" label=" &nbsp; Team &nbsp; " />
