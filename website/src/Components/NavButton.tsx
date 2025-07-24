@@ -10,7 +10,7 @@ export function NavButton({
     href,
 }: NavButtonProps) {
     return (
-        <Link href={href} className="flex items-center justify-center">
+        <Link href={href} className="flex items-center justify-center gap-x-24">
             <span>{label}</span>
         </Link>
     );
