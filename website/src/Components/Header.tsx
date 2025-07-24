@@ -13,7 +13,7 @@ export function Header() {
         <main className={montserrat.className}>
         <header className=" bg-backgroun ">
             <div className=" ">
-                <div className="flex items-center justify-between font-bold ">
+                <div className="flex items-center justify-between justify-evenly gap-x-[100px] font-bold ">
                     <img src="/images/black-logo-transparent.png" alt="MIND Logo" className="object-contain w-[75px] sm:w-[35px] md:w-[75px] lg:w-[75px]" />
                     <Link href="/" className="flex justify-center items-center gap-2 ml-0" title="Home">
                         <h1 className=" sm:block text-xl font-bold m-0 mt-1 h-8 ">
