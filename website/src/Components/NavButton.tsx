@@ -10,7 +10,7 @@ export function NavButton({
     href,
 }: NavButtonProps) {
     return (
-        <Link href={href} className=" item-center">
+        <Link href={href} className=" item-center ">
             <span>{label}</span>
         </Link>
     );
