@@ -20,7 +20,6 @@ export function Header() {
                             MIND
                         </h1>
                     </Link>
-            </div>
 
                     <div className="hover:bg-gray-200 rounded mx-2 other-bar flex"> 
                         <NavButton href="/About" label="About &nbsp; " />
@@ -39,7 +38,7 @@ export function Header() {
 
                     </div>
 
-                
+            </div>
             </div>
         </header>
         </main>
