@@ -169,6 +169,7 @@
     align-items: center;
     display: flex;
     gap: 3.5rem; 
+    flex-direction: row;
   }
   .logo-image {
     width: 500px;
@@ -671,6 +672,9 @@
       padding: 0px;
       gap : 0rem;
       right:50%;
+      flex-direction: row;
+      display: flex;
+      align-items: center;
     }
     .logo-image {
       width: 200px;
@@ -1186,6 +1190,8 @@
       align-items: center;
       display: flex;
       gap: 0.5rem; 
+      flex-direction: row;
+      
     }
 
     .home-image-right, 
