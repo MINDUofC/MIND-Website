@@ -21,7 +21,7 @@ export function Header() {
                         </h1>
                     </Link>
 
-                    <NavButton href="/About" label="About" />
+                    <NavButton href="/About" label=" &nbsp; About" />
 
                     <NavButton href="/Team" label="Team" />
 
