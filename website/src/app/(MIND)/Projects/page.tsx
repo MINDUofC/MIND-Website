@@ -17,7 +17,7 @@ export default function Projects() {
             <img src="/images/white-logo-transparent.png" alt="MIND Logo" className="object-contain absolute top-0 right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
             <h2 className="font-extrabold fade-in project">Our Projects</h2>
             <img src="/images/ARM.png" alt="Projects" className="absolute right-10 top-1/2 transform -translate-y-3/4 object-contain slide-in-right project-image2" />
-            <img src="/images/headset.png" alt="Projects" className="absolute right-10 top-1/2 transform -translate-y-3/4 object-contain slide-in-right project-image1" />
+            <img src="/images/headset.PNG" alt="Projects" className="absolute right-10 top-1/2 transform -translate-y-3/4 object-contain slide-in-right project-image1" />
             <p className="font-semibold drop-shadow-lg slide-in-left project-title1">Our First Project: The BCI - NeuroDrive</p>
 
             <p className="font-light drop-shadow-lg slide-in-left project-para1">
