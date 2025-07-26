@@ -165,6 +165,11 @@
 
 @layer utilities {
   /* Default Large Screens */
+
+  .nav-logo{
+    width: 75px;
+    height: auto;
+  }
   .other-bar{
     align-items: center;
     display: flex; 
@@ -661,12 +666,17 @@
 
   /* Small Screens (max-width: 600px) */
   @media only screen and (max-width: 600px) {
-    /* .nav-bar{
+    .nav-bar{
       gap: -10px;
       font-size: 0.4rem;
       padding: 1px;
+      flex-direction: column;
     
-    } */
+    }
+
+    .nav-logo{
+      width: 35px;
+    }
     .other-bar{
       flex-direction: row;
       display: flex;
@@ -1174,6 +1184,11 @@
 
   /* Medium Screens (601px - 1024px) */
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    .nav-logo{
+      width: 75px;
+      height: auto;
+    }
     .logo-image {
       width: 350px;
       height: 800px;
