@@ -472,11 +472,12 @@
   }
 
   .full-bgsponsors {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow-x:hidden;
   }
 
   .events{
@@ -917,11 +918,12 @@
     }
 
     .full-bgsponsors {
-      height: 106vh;
-      width: 100vw;
+      min-height: 100vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
 
     .events{
@@ -1476,11 +1478,12 @@
     }
 
     .full-bgsponsors {
-      height: 100vh;
-      width: 100vw;
+      min-height: 100vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
 
     .events{

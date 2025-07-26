@@ -15,7 +15,7 @@ export const metadata = {
 export default function Sponsors() {
     return (
         <div className={`${montserrat.className}`}>
-        <div className="bg-grey min-h-screen w-full bg-cover full-bgsponsors bg-center bg-no-repeat relative h-full">
+        <div className="bg-grey body relative full-bgsponsors ">
             <img src="/images/black-logo-transparent.png" alt="MIND Logo" className="object-contain absolute top-0 right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
             <img src="/images/Sponsors.png" alt="Sponsors" className="object-contain slide-in-right-delay sponsors-image" />
             <img src="/images/engg-logo.png" alt="engg-logo" className="object-contain slide-in-right sponsors-engg" />
@@ -55,3 +55,5 @@ export default function Sponsors() {
         </div>
     )
 }
+
+// min-h-screen w-full bg-cover full-bgsponsors bg-center bg-no-repeat relative h-full 
