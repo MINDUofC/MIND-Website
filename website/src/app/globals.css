@@ -196,7 +196,7 @@
 
   .main-heading {
     position: absolute;
-    top: 420px;
+    top: 52%;
     left: 51%;
     transform: translateX(-145%);
     font-size: 4.5rem; /* text-7xl */
@@ -205,7 +205,7 @@
 
   .sub-heading {
     position: absolute;
-    top: 515px;
+    top: 63%;
     left: 51%;
     transform: translateX(-118%);
     font-size: 1.5rem; /* text-2xl */
@@ -214,7 +214,7 @@
 
   .slogan {
     position: absolute;
-    top: 600px;
+    top: 70%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 2rem; /* text-4xl */
