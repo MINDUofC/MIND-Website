@@ -13,7 +13,7 @@ export const metadata = {
 export default function Contact() {
     return (
         <div className={`${montserrat.className}`}>
-        <div className="bg-grey-blue min-h-screen w-full full-bgcontact bg-cover bg-center bg-no-repeat relative">
+        <div className="bg-grey-blue full-bgcontact relative">
             <img src="/images/black-logo-transparent.png" alt="MIND Logo" className="object-contain absolute top-0 right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
             <img src="/images/Contact Us.png" alt="Contact" className="object-contain absolute transform slide-in-right contact-image" />
             <h2 className="font-extrabold fade-in drop-shadow-lg contact-us">Contact us</h2>

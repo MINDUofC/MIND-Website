@@ -259,11 +259,12 @@
   }
 
   .full-bgapply {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow-x: hidden;
   }
 
   .about-us{
@@ -317,11 +318,12 @@
   }
 
   .full-bgabout {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow-x: hidden;
   }
   .contact-us{
     position: absolute;
@@ -378,11 +380,12 @@
   }
 
   .full-bgcontact {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow-x: hidden;
   }
 
   .sponsors{
@@ -543,11 +546,12 @@
   }
 
   .full-bgevents {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow-x: hidden;
   }
 
   .project{
@@ -617,11 +621,12 @@
   }
 
   .full-bgproject {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow-x: hidden;
   }
 
   .team{
@@ -658,11 +663,12 @@
   }
 
   .full-bgteam {
-    height: 103vh;
-    width: 100vw;
+    min-height: 103vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow-x: hidden;
   }
 
   /* Small Screens (max-width: 600px) */
@@ -754,11 +760,12 @@
     }
 
     .full-bgapply {
-      height: 100vh;
-      width: 100vw;
+      min-height: 100vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
 
     .contact-us{
@@ -818,11 +825,12 @@
     }
 
     .full-bgcontact {
-      height: 100vh;
-      width: 100vw;
+      min-height: 100vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
 
     .sponsors{
@@ -995,11 +1003,12 @@
     }
 
     .full-bgevents {
-      height: 108vh;
-      width: 100vw;
+      min-height: 108vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
 
     .project{
@@ -1074,11 +1083,12 @@
     }
 
     .full-bgproject {
-      height: 127vh;
-      width: 100vw;
+      min-height: 127vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
 
     .team{
@@ -1116,11 +1126,12 @@
     }
 
     .full-bgteam {
-      height: 111vh;
-      width: 100vw;
+      min-height: 111vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
 
     .about-us{
@@ -1176,11 +1187,12 @@
       font-size: small;
     }
     .full-bgabout {
-      height: 125vh;
-      width: 100vw;
+      min-height: 125vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
   }
 
@@ -1263,11 +1275,12 @@
       color: #85C7F2;
     }
     .full-bgapply {
-      height: 100vh;
-      width: 100vw;
+      min-height: 100vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
     .about-us{
       position: absolute;
@@ -1319,11 +1332,12 @@
       font-size: 1rem;
     }
     .full-bgabout {
-      height: 100vh;
-      width: 100vw;
+      min-height: 100vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
     .contact-us{
       position: absolute;
@@ -1382,11 +1396,12 @@
     }
 
     .full-bgcontact {
-      height: 100vh;
-      width: 100vw;
+      min-height: 100vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
 
     .sponsors{
@@ -1549,11 +1564,12 @@
       color: #002960;
     }
     .full-bgevents {
-      height: 100vh;
-      width: 100vw;
+      min-height: 100vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
 
     .project{
@@ -1625,11 +1641,12 @@
     }
 
     .full-bgproject {
-      height: 100vh;
-      width: 100vw;
+      min-height: 100vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
 
     .team{
@@ -1664,11 +1681,12 @@
       height: 600px;
     }
     .full-bgteam {
-      height: 100vh;
-      width: 100vw;
+      min-height: 100vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
   }
 }

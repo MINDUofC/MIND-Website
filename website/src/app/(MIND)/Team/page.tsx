@@ -13,7 +13,7 @@ export const metadata = {
 export default function Team() {
     return (
         <div className={`${montserrat.className}`}>
-        <div className="bg-light-blue min-h-screen w-full full-bgteam bg-cover bg-center bg-no-repeat relative">
+        <div className="bg-light-blue full-bgteam  relative">
         <div className="relative flex items-center justify-center p-6">
         <div className="bg-white rounded-3xl p-10 shadow-xl flex items-center justify-center team-bg">
             <img src="/images/logo-transparent.png" alt="MIND Logo" className="object-contain absolute top-5 right-11 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />

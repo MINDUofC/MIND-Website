@@ -13,7 +13,7 @@ export const metadata = {
 export default function Events() {
     return (
         <div className={`${montserrat.className}`}>
-        <div className="bg-allfour min-h-screen full-bgevents w-full bg-cover bg-center bg-no-repeat relative">
+        <div className="bg-allfour full-bgevents relative">
             <img src="/images/white-logo-transparent.png" alt="MIND Logo" className="object-contain absolute top-0 right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
             <hr className="w-2/5 border-t-2 mx-auto my-4 events-line" />
             <img src="/images/Events.png" alt="Events" className="object-contain absolute top-0 left-0 slide-in-left events-image"/>

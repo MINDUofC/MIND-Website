@@ -13,7 +13,7 @@ export const metadata = {
 export default function Projects() {
     return (
         <div className={`${montserrat.className}`}>
-        <div className="bg-blue min-h-screen w-full full-bgproject bg-cover bg-center bg-no-repeat relative">
+        <div className="bg-blue full-bgproject relative">
             <img src="/images/white-logo-transparent.png" alt="MIND Logo" className="object-contain absolute top-0 right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
             <h2 className="font-extrabold fade-in project">Our Projects</h2>
             <img src="/images/ARM.png" alt="Projects" className="absolute right-10 top-1/2 transform -translate-y-3/4 object-contain slide-in-right project-image2" />
