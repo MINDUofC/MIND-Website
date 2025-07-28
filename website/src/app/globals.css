@@ -236,7 +236,7 @@
 
   .Apply{
     position: absolute;
-    top: 200px;
+    top: 24%;
     left: 65%;
     transform: translateX(-150%);
     color: #85C7F2;
@@ -244,7 +244,7 @@
 
   .sub-apply{
     position: absolute;
-    top: 300px;
+    top: 35%;
     left: 79%;
     transform: translateX(-105%);
     color: #85C7F2;
@@ -252,7 +252,7 @@
   }
 
   .apply-button{
-    top: 450px;
+    top: 45%;
     left: 49%;
     transform: translateX(-50%);
     color: #85C7F2;
@@ -327,7 +327,7 @@
   }
   .contact-us{
     position: absolute;
-     top: 180px; 
+     top: 21%; 
      left: 65%;
      transform: translateX(-185%); 
      color: #002960;
@@ -337,7 +337,7 @@
   .contact-us-sub{
     font-size: 1.875rem;
     position: absolute;
-    top: 280px;
+    top: 32%;
     left: 70%;
     transform: translateX(-185%);
     color: #002960;
@@ -346,7 +346,7 @@
 
   .insta{
     position: absolute;
-    top: 465px; 
+    top: 54%; 
     left: 62%; 
     transform: translateX(-950%); 
     width: 75px; 
@@ -355,7 +355,7 @@
 
   .linkedIn{
     position: absolute; 
-    top: 465px; 
+    top: 54%; 
     left: 60%; 
     transform: translateX(-750%); 
     width: 75px; 
@@ -364,7 +364,7 @@
 
   .gmail{
     position: absolute;
-    top: 465px;
+    top: 54%;
     left: 60%;
     transform: translateX(-550%);
      width: 75px; 
@@ -390,42 +390,46 @@
 
   .sponsors{
     position: absolute;
-    top: 45px;
-    left: 58%;
+    top: 5%;
+    left: 66%;
     transform: translateX(-150%);
-    color: #FFFFFF;
+    width: 40%;
+    color: #FFFFFF;;
   }
 
   .sponsors-title{
     position: absolute;
-    top: 180px;
-    left: 60%;
+    top: 17%;
+    left: 74%;
     transform: translateX(-131%);
     color: #FFFFFF;
     font-size: 2xl; /* text-2xl */
+    width: 50%;
   }
 
   .sponsors-para{
     position: absolute;
-    top: 325px;
+    top: 38%;
     left: 49%;
     transform: translateX(-80%);
     color: #FFFFFF;
     font-size: small;
+    width: 51%;
   }
 
   .sponsors-link{
     position: absolute;
-    top: 450px;
+    top: 53%;
     left: 49%;
     transform: translateX(-80%);
     color: #FFFFFF;
     font-size: small;
+    width: 51%;
   }
 
   .sponsors-join{
     position: absolute;
-    top: 550px;
+    top: 65%;
     left: 42%;
     transform: translateX(-219%);
     color: #FFFFFF;
@@ -434,7 +438,7 @@
 
   .sponsors-contact{
     position: absolute;
-    top: 600px;
+    top: 71%;
     left: 48%;
     transform: translateX(-85%);
     color: #FFFFFF;
@@ -442,15 +446,15 @@
   }
 
   .sponsors-button{
-    top: 620px;
-    left: 81%;
+    top: 73%;
+    left: 83%;
     transform: translateX(-50%);
   }
 
   .sponsors-image{
     position: absolute;
-     top: 250px;
-     left: 115%;
+     top: 29%;
+     left: 117%;
      transform: translateX(-150%);
      width: 500px;
      height: auto;
@@ -458,8 +462,8 @@
 
   .sponsors-engg{
     position: absolute;
-    top: 10px;
-    left: 81%;
+    top: 2%;
+    left: 85%;
     transform: translateX(-150%);
     width: 375px;
     height: auto;
@@ -467,8 +471,8 @@
 
   .sponsort-nero{
     position: absolute;
-    top: 10px;
-    left: 87%;
+    top: 2%;
+    left: 90%;
     transform: translateX(-150%);
     width: 165px;
     height: auto;
@@ -485,7 +489,7 @@
 
   .events{
     position: absolute;
-    top: 50px;
+    top: 3%;
     left: 50%;
     transform: translateX(-50%);
     color: #85C7F2;
@@ -493,54 +497,58 @@
   }
 
   .events-image{
-    width: 600px;
+    width: 575px;
     height: auto;
     position: absolute;
-    top: 150px;
-    left: 60%;
+    top: 18%;
+    left: 65%;
     transform: translateX(-145%);
   }
 
   .events-title1{
     position: absolute;
-    top: 175px;
-    left: 63%;
+    top: 17%;
+    left: 70%;
     transform: translateX(-50%);
     color: #002960;
     font-size: 1.875rem; /* text-2xl */
+    width: 30%;
   }
 
   .events-title2{
     position: absolute;
-    top: 465px;
-    left: 68%;
+    top: 54%;
+    left: 73%;
     transform: translateX(-50%);
     color: #002960;
     font-size: 1.875rem; /* text-2xl */
+    width: 44%;
   }
 
   .events-para1{
     position: absolute;
-    top: 225px;
-    left: 65%;
+    top: 26%;
+    left: 70%;
     transform: translateX(-50%);
     color: #002960;
     font-size: 1.125rem;
+    width: 37%;
   }
 
   .events-para2{
     position: absolute;
-    top: 570px;
-    left: 65%;
+    top: 66%;
+    left: 70%;
     transform: translateX(-50%);
     color: #002960;
     font-size: 1.125rem;
+    width: 37%;
   }
 
   .events-line{
     position: absolute;
-    top: 430px;
-    left: 65%;
+    top: 50%;
+    left: 70%;
     transform: translateX(-50%);
     color: #002960;
   }
@@ -556,7 +564,7 @@
 
   .project{
     position: absolute;
-    top: 35px;
+    top: 4%;
     left: 30%;
     color: #85C7F2;
     font-size: 4.5rem; /* text-2xl */
@@ -564,7 +572,7 @@
 
   .project-title1{
     position: absolute;
-    top: 160px;
+    top: 19%;
     left: 27%;
     transform: translateX(-50%);
     color: #85C7F2;
@@ -573,7 +581,7 @@
 
   .project-title2{
     position: absolute;
-    top: 465px;
+    top: 54%;
     left: 14%;
     transform: translateX(-54%);
     color: #85C7F2;
@@ -582,7 +590,7 @@
 
   .project-para1{
     position: absolute;
-    top: 225px;
+    top: 26%;
     left: 38%;
     transform: translateX(-49%);
     color: #85C7F2;
@@ -591,7 +599,7 @@
 
   .project-para2{
     position: absolute;
-    top: 525px;
+    top: 61%;
     left: 38%;
     transform: translateX(-49%);
     color: #85C7F2;
@@ -599,22 +607,22 @@
   }
 
   .project-image1{
-    top: 365px;
-    right: 150px;
-    width: 265px;
+    top: 42%;
+    right: 10%;
+    width: 260px;
     height: auto;
   }
 
   .project-image2{
-    top: 700px;
-    right: 135px;
+    top: 81%;
+    right: 9%;
     width: 300px;
     height: auto;
   }
 
   .project-line{
     position: absolute;
-    top: 415px;
+    top: 48%;
     left: 37%;
     transform: translateX(-50%);
     color: #85C7F2;
@@ -631,7 +639,7 @@
 
   .team{
     position: absolute;
-    top: 20px;
+    top: 2%;
     left: 50%;
     transform: translateX(-50%);
     color: #0047B2;
@@ -640,7 +648,7 @@
 
   .team-image{
     position: absolute;
-    top: 120px;
+    top: 15%;
     left: 50%;
     transform: translateX(-50%);
     width: 1400px;
@@ -649,7 +657,7 @@
 
   .team-para{
     position: absolute;
-    top: 660px;
+    top: 84%;
     left: 51%;
     transform: translateX(-51%);
     color: #0047B2;
@@ -693,6 +701,7 @@
       width: 200px;
       top: 51%;
       left: 55%;
+      transform: translate(-50%, -66%);
     }
 
     .home-image-right{
@@ -706,21 +715,21 @@
     }
 
     .main-heading {
-      font-size: 2rem; /* text-3xl */
+      font-size: 1.8rem; /* text-3xl */
       top: 51%;
       left: 31%;
       transform: translateX(-50%);
     }
 
     .sub-heading {
-      font-size: 1rem; /* text-xl */
+      font-size: 0.8rem; /* text-xl */
       top: 55%;
       left: 43%;
       transform: translateX(-50%);
     }
 
     .slogan {
-      font-size: 1rem; /* text-2xl */
+      font-size: 0.9rem; /* text-2xl */
       top: 60%;
       left: 55%;
     }
@@ -735,9 +744,9 @@
 
     .Apply{
       position: absolute;
-      top: 225px;
-      left: 90%;
-      transform: translateX(-150%);
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       color: #85C7F2;
       font-size: 	3.5rem;
     }
@@ -770,9 +779,9 @@
 
     .contact-us{
       position: absolute;
-      top: 200px; 
+      top: 23%; 
       left: 99%;
-      transform: translateX(-85%); 
+      transform: translateX(-89%); 
       color: #002960;
       font-size: 3.5rem;
       width: 100%;
@@ -781,7 +790,7 @@
     .contact-us-sub{
       font-size: 1rem;
       position: absolute;
-      top: 300px;
+      top: 32%;
       left: 78%;
       transform: translateX(-80%);
       color: #002960;
@@ -791,27 +800,27 @@
 
     .insta{
       position: absolute;
-      top: 400px; 
+      top: 44%; 
       left: 110%; 
-      transform: translateX(-700%); 
+      transform: translateX(-725%); 
       width: 50px; 
       height: 50px;
     }
 
     .linkedIn{
       position: absolute; 
-      top: 400px; 
+      top: 44%; 
       left: 110%; 
-      transform: translateX(-525%); 
+      transform: translateX(-550%); 
       width: 50px; 
       height: 50px;
     }
 
     .gmail{
       position: absolute;
-      top: 400px;
+      top: 44%;
       left: 110%;
-      transform: translateX(-350%);
+      transform: translateX(-375%);
       width: 50px; 
       height: 50px;
     }
@@ -835,93 +844,94 @@
 
     .sponsors{
       position: absolute;
-      top: 25px;
-      left: 85%;
+      top: 2%;
+      left: 153%;
       transform: translateX(-150%);
       color: #FFFFFF;
-      font-size: 3rem;
+      font-size: 2.8rem;
+      width: 100%;
     }
 
     .sponsors-title{
       position: absolute;
-      top: 150px;
+      top: 14%;
       left: 80%;
       transform: translateX(-70%);
       color: #FFFFFF;
-      font-size: 2rem; /* text-2xl */
+      font-size: 1.8rem; /* text-2xl */
       width: 100%;
     }
 
     .sponsors-para{
       position: absolute;
-      top: 225px;
+      top: 24%;
       left: 79%;
       transform: translateX(-80%);
       color: #FFFFFF;
-      font-size: 0.75rem;
-      width: 85%;
+      font-size: 0.65rem;
+      width: 95%;
     }
 
     .sponsors-link{
       position: absolute;
-      top: 400px;
+      top: 44%;
       left: 79%;
       transform: translateX(-80%);
       color: #FFFFFF;
-      font-size: 0.75rem;
-      width: 85%;
+      font-size: 0.65rem;
+      width: 95%;
     }
 
     .sponsors-join{
       position: absolute;
-      top: 530px;
+      top: 58%;
       left: 90%;
       transform: translateX(-80%);
       color: #FFFFFF;
-      font-size: 0.75rem;
+      font-size: 0.65rem;
       width: 85%;
     }
 
     .sponsors-contact{
       position: absolute;
-      top: 580px;
+      top: 63%;
       left: 79%;
       transform: translateX(-85%);
       color: #FFFFFF;
-      font-size: 0.75rem;
+      font-size: 0.65rem;
       width: 85%;
     }
 
     .sponsors-button{
-      top: 650px;
+      top: 70%;
       left: 50%;
       transform: translateX(-50%);
     }
 
     .sponsors-image{
       position: absolute;
-       top: 650px;
+       top: 75%;
        left: 107%;
        transform: translateX(-128%);
-       width: 325px;
+       width: 315px;
        height: auto;
     }
 
     .sponsors-engg{
       position: absolute;
-      top: 75px;
-      left: 90%;
+      top: 8%;
+      left: 50%;
       transform: translateX(-126%);
-      width: 100px;
+      width: 95px;
       height: auto;
     }
 
     .sponsort-nero{
       position: absolute;
-      top: 65px;
-      left: 99%;
+      top: 7%;
+      left: 70%;
       transform: translateX(-110%);
-      width: 60px;
+      width: 55px;
       height: auto;
     }
 
@@ -936,7 +946,7 @@
 
     .events{
       position: absolute;
-      top: 35px;
+      top: 4%;
       left: 58%;
       transform: translateX(-50%);
       color: #85C7F2;
@@ -955,17 +965,17 @@
 
     .events-title1{
       position: absolute;
-      top: 125px;
+      top: 15%;
       left: 59%;
       transform: translateX(-50%);
       color: #002960;
-      font-size: 1.80rem;
+      font-size: 1.7rem;
       width: 100%;
     }
 
     .events-title2{
       position: absolute;
-      top: 475px;
+      top: 55%;
       left: 62%;
       transform: translateX(-50%);
       color: #002960;
@@ -975,7 +985,7 @@
 
     .events-para1{
       position: absolute;
-      top: 180px;
+      top: 22%;
       left: 53%;
       transform: translateX(-50%);
       color: #002960;
@@ -985,7 +995,7 @@
 
     .events-para2{
       position: absolute;
-      top: 570px;
+      top: 65%;
       left: 53%;
       transform: translateX(-50%);
       color: #002960;
@@ -995,7 +1005,7 @@
 
     .events-line{
       position: absolute;
-      top: 440px;
+      top: 50%;
       left: 50%;
       transform: translateX(-50%);
       color: #002960;
@@ -1063,14 +1073,14 @@
     .project-image1{
       top: 600px;
       left: 25%;
-      width: 200px;
+      width: 190px;
       height: auto;
     }
 
     .project-image2{
       top: 1115px;
       left: 25%;
-      width: 225px;
+      width: 215px;
       height: auto;
     }
 
@@ -1093,17 +1103,17 @@
 
     .team{
       position: absolute;
-      top: 20px;
+      top: 3%;
       left: 65%;
       transform: translateX(-50%);
       color: #0047B2;
-      font-size: 3rem;
+      font-size: 2.7rem;
       width: 100%;
     }
 
     .team-image{
       position: absolute;
-      top: 110px;
+      top: 14%;
       left: 50%;
       transform: translateX(-50%);
       width: 375px;
@@ -1112,21 +1122,21 @@
 
     .team-para{
       position: absolute;
-      top: 300px;
-      left: 40%;
+      top: 37%;
+      left: 35%;
       transform: translateX(-29%);
       color: #0047B2;
       font-size: 1rem;
-      width: 60%;
+      width: 75%;
     }
 
     .team-bg{
       width: 1800px;
-      height: 850px;
+      height: 800px;
     }
 
     .full-bgteam {
-      min-height: 111vh;
+      min-height: 100vh;
       width: 100%;
       background-size: cover;
       background-position: center;
@@ -1205,8 +1215,8 @@
     }
     .logo-image {
       width: 350px;
-      height: 800px;
-      top: 52%;
+      height: auto;
+      top: 47%;
       left: 50%;
       transform: translate(-50%, -66%);
     }
@@ -1225,21 +1235,21 @@
     }
 
     .main-heading {
-      font-size: 3rem; /* text-4xl */
+      font-size: 2.8rem; /* text-4xl */
       top: 47%;
       left: 33%;
       transform: translateX(-50%);
     }
 
     .sub-heading {
-      font-size: 1.5rem; /* text-2xl */
+      font-size: 1.3rem; /* text-2xl */
       top: 51%;
       left: 40%;
       transform: translateX(-50%);
     }
 
     .slogan {
-      font-size: 1.6rem; /* text-3xl */
+      font-size: 1.5rem; /* text-3xl */
       top: 55%;
     }
 
@@ -1253,15 +1263,15 @@
 
     .Apply{
       position: absolute;
-      top: 225px;
+      top: 30%;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translate(-50%, -50%);
       color: #85C7F2;
     }
   
     .sub-apply{
       position: absolute;
-      top: 310px;
+      top: 34%;
       left: 50%;
       transform: translateX(-50%);
       color: #85C7F2;
@@ -1269,7 +1279,7 @@
     }
   
     .apply-button{
-      top: 435px;
+      top: 45%;
       left: 50%;
       transform: translateX(-50%);
       color: #85C7F2;
@@ -1341,7 +1351,7 @@
     }
     .contact-us{
       position: absolute;
-       top: 400px; 
+       top: 30%; 
        left: 60%;
        transform: translateX(-100%); 
        color: #002960;
@@ -1352,7 +1362,7 @@
     .contact-us-sub{
       font-size: 1.25rem;
       position: absolute;
-      top: 500px;
+      top: 40%;
       left: 60%;
       transform: translateX(-100%);
       color: #002960;
@@ -1362,25 +1372,25 @@
 
     .insta{
       position: absolute;
-      top: 600px; 
+      top: 50%; 
       left: 60%; 
-      transform: translateX(-700%); 
+      transform: translateX(-600%); 
       width: 75px; 
       height: 75px;
     }
 
     .linkedIn{
       position: absolute; 
-      top: 600px; 
+      top: 50%; 
       left: 60%; 
-      transform: translateX(-500%); 
+      transform: translateX(-450%); 
       width: 75px; 
       height: 75px;
     }
 
     .gmail{
       position: absolute;
-      top: 600px;
+      top: 50%;
       left: 60%;
       transform: translateX(-300%);
        width: 75px; 
@@ -1406,8 +1416,8 @@
 
     .sponsors{
       position: absolute;
-      top: 45px;
-      left: 50%;
+      top: 2%;
+      left: 49%;
       transform: translateX(-110%);
       color: #FFFFFF;
       font-size: 3.75rem;
@@ -1415,80 +1425,80 @@
 
     .sponsors-title{
       position: absolute;
-      top: 175px;
+      top: 15%;
       left: 50%;
       transform: translateX(-45%);
       color: #FFFFFF;
-      font-size: 3.5rem;
+      font-size: 3.4rem;
       width: 100%;
     }
 
     .sponsors-para{
       position: absolute;
-      top: 350px;
+      top: 27%;
       left: 50%;
       transform: translateX(-85%);
       color: #FFFFFF;
-      font-size: 1.25rem;
+      font-size: 1.05rem;
     }
 
     .sponsors-link{
       position: absolute;
-      top: 575px;
+      top: 53%;
       left: 50%;
       transform: translateX(-85%);
       color: #FFFFFF;
-      font-size: 1.125rem;
+      font-size: 1.05rem;
     }
 
     .sponsors-join{
       position: absolute;
-      top: 725px;
-      left: 50%;
+      top: 71%;
+      left: 60%;
       transform: translateX(-125%);
       color: #FFFFFF;
-      font-size: 1.125rem;
+      font-size: 1.05rem;
     }
 
     .sponsors-contact{
       position: absolute;
-      top: 770px;
+      top: 76%;
       left: 50%;
       transform: translateX(-85%);
       color: #FFFFFF;
-      font-size: 1.125rem;
+      font-size: 1.05rem;
     }
 
     .sponsors-button{
-      top: 680px;
-      left: 75%;
+      top: 68%;
+      left: 77%;
       transform: translateX(-50%);
     }
 
     .sponsors-image{
       position: absolute;
-       top: 350px;
-       left: 100%;
+       top: 30%;
+       left: 101%;
        transform: translateX(-95%);
-       width: 500px;
+       width: 450px;
        height: auto;
     }
 
     .sponsors-engg{
       position: absolute;
-      top: 10px;
-      left: 63%;
+      top: 2%;
+      left: 61%;
       transform: translateX(-50%);
-      width: 300px;
+      width: 275px;
       height: auto;
     }
 
     .sponsort-nero{
       position: absolute;
-      top: 10px;
+      top: 2%;
       left: 85%;
       transform: translateX(-50%);
-      width: 125px;
+      width: 115px;
       height: auto;
     }
 
@@ -1503,62 +1513,66 @@
 
     .events{
       position: absolute;
-      top: 70px;
-      left: 50%;
+      top: 5%;
+      left: 70%;
       transform: translateX(-50%);
       color: #85C7F2;
       font-size: 2xl; /* text-2xl */
+      width: 100%;
     }
 
     .events-image{
-      width: 500px;
+      width: 420px;
       height: auto;
       position: absolute;
-      top: 350px;
-      left: 50%;
+      top: 40%;
+      left: 53%;
       transform: translateX(-100%);
     }
 
     .events-title1{
       position: absolute;
-      top: 200px;
+      top: 19%;
       left: 63%;
       transform: translateX(-25%);
       color: #002960;
       font-size: 2.5rem; /* text-2xl */
+      width: 50%;
     }
 
     .events-title2{
       position: absolute;
-      top: 585px;
+      top: 57%;
       left: 63%;
       transform: translateX(-20%);
       color: #002960;
-      font-size: 2.25rem;
+      font-size: 2rem;
       width: 50%;
     }
 
     .events-para1{
       position: absolute;
-      top: 325px;
+      top: 31%;
       left: 65%;
       transform: translateX(-25%);
       color: #002960;
       font-size: 1rem;
+      width: 45%;
     }
 
     .events-para2{
       position: absolute;
-      top: 700px;
+      top: 69%;
       left: 65%;
       transform: translateX(-25%);
       color: #002960;
       font-size: 1rem;
+      width: 45%;
     }
 
     .events-line{
       position: absolute;
-      top: 550px;
+      top: 53%;
       left: 65%;
       transform: translateX(-25%);
       color: #002960;
@@ -1574,7 +1588,7 @@
 
     .project{
       position: absolute;
-      top: 25px;
+      top: 3%;
       left: 25%;
       color: #85C7F2;
       font-size: 4.5rem;
@@ -1582,8 +1596,8 @@
 
     .project-title1{
       position: absolute;
-      top: 200px;
-      left: 25%;
+      top: 13%;
+      left: 29%;
       transform: translateX(-30%);
       color: #85C7F2;
       font-size: 2rem;
@@ -1591,8 +1605,8 @@
 
     .project-title2{
       position: absolute;
-      top: 515px;
-      left: 17%;
+      top: 55%;
+      left: 22%;
       transform: translateX(-50%);
       color: #85C7F2;
       font-size: 2rem;
@@ -1600,33 +1614,33 @@
 
     .project-para1{
       position: absolute;
-      top: 265px;
+      top: 22%;
       left: 38%;
       transform: translateX(-49%);
       color: #85C7F2;
-      font-size: 1rem;
+      font-size: 0.9rem;
       width: 60%;
     }
 
     .project-para2{
       position: absolute;
-      top: 570px;
+      top: 60%;
       left: 38%;
       transform: translateX(-49%);
       color: #85C7F2;
-      font-size: 1rem;
+      font-size: 0.9rem;
       width: 60%;
     }
 
     .project-image1{
-      top: 415px;
+      top: 40%;
       left: 73%;
       width: 250px;
       height: auto;
     }
 
     .project-image2{
-      top: 725px;
+      top: 75%;
       left: 70%;
       width: 300px;
       height: auto;
@@ -1634,7 +1648,7 @@
 
     .project-line{
       position: absolute;
-      top: 475px;
+      top: 50%;
       left: 37%;
       transform: translateX(-50%);
       color: #85C7F2;
@@ -1651,16 +1665,17 @@
 
     .team{
       position: absolute;
-      top: 20px;
-      left: 50%;
-      transform: translateX(-50%);
+      top: 1%;
+      left: 76%;
+      /* transform: translateX(%); */
       color: #0047B2;
       font-size: 2xl; /* text-2xl */
+      width: 100%;
     }
 
     .team-image{
       position: absolute;
-      top: 110px;
+      top: 16%;
       left: 50%;
       transform: translateX(-50%);
       width: 900px;
@@ -1669,11 +1684,12 @@
 
     .team-para{
       position: absolute;
-      top: 475px;
+      top: 72%;
       left: 51%;
       transform: translateX(-51%);
       color: #0047B2;
       font-size: small;
+      width: 100%;
     }
 
     .team-bg{

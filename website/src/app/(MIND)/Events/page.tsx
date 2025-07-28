@@ -29,7 +29,7 @@ export default function Events() {
                 Wish us luck as we begin our development!
                 </p>
 
-            <p className="font-semibold drop-shadow-lg slide-in-left events-title2">Winter 2025 - Upcoming Workshops!</p>
+            <p className="font-semibold drop-shadow-lg slide-in-left events-title2">Winter 2025 - Upcoming Workshop</p>
 
             <p className="font-light drop-shadow-lg slide-in-right events-para2">
                 Kick off 2025 with MIND! This winter semester, we’re bringing you two

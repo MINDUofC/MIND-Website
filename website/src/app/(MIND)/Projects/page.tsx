@@ -42,3 +42,5 @@ export default function Projects() {
 
     )
 }
+
+// only tablet needs fixing just image size
