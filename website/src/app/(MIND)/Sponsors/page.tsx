@@ -51,7 +51,7 @@ export default function Sponsors() {
 
                     <div className="fade-in-third sponsors-button">
                         <a href="https://drive.google.com/file/d/1f-LujBkqJIGSfUu-CFVlfOggvyKXhgz8/view">
-                            <Button variant="default" size="lg">Become a Sponsor</Button>
+                            <Button variant="ghost" size="lg" style={{color: '#FFFFFF'}}>Become a Sponsor</Button>
                         </a>
                     </div>
                 </div>
