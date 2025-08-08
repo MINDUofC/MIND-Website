@@ -1,4 +1,5 @@
 import { Montserrat } from 'next/font/google';
+import Image from 'next/image';
 
  const montserrat = Montserrat({
     subsets: ['latin'],
@@ -14,14 +15,14 @@ export default function Events() {
     return (
         <div className={`${montserrat.className}`}>
         <div className="bg-allfour full-bgevents">
-            <img src="/images/white-logo-transparent.png" alt="MIND Logo" className="absolute right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
+            <Image src="/images/white-logo-transparent.png" alt="MIND Logo" width={100} height={100} className="absolute right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
 
             <h2 className="font-bold drop-shadow-lg fade-in events">What&apos;s New</h2>
 
             <div className='img-text'>
                 <div className='two-img'>
-                    <img src="/images/Events.png" alt="Events" className="slide-in-left events-image"/>
-                    <img src="/images/BCICar.png" alt="car" className="slide-in-left events-image"/>
+                    <Image src="/images/Events.png" alt="Events" width={575} height={600} className="slide-in-left events-image"/>
+                    <Image src="/images/BCICar.png" alt="car" width={575} height={600} className="slide-in-left events-image"/>
                 </div>
 
                 <div className='template flex'>

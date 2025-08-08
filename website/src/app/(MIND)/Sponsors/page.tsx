@@ -1,6 +1,7 @@
 
 import { Montserrat } from 'next/font/google';
 import { Button } from '@/Components/ui/button';
+import Image from 'next/image';
 
  const montserrat = Montserrat({
     subsets: ['latin'],
@@ -20,8 +21,8 @@ export default function Sponsors() {
 
             <div className='s-heading'>
                 <h2 className="font-extrabold text-7xl slide-in-left drop-shadow-lg sponsors">Our Sponsors</h2>
-                <img src="/images/engg-logo.png" alt="engg-logo" className=" slide-in-right sponsors-engg" />
-                <img src="/images/NP.png" alt="NP-logo" className="slide-in-right sponsort-nero" />
+                <Image src="/images/engg-logo.png" alt="engg-logo" width={375} height={150} className="slide-in-right sponsors-engg" />
+                <Image src="/images/NP.png" alt="NP-logo" width={165} height={165} className="slide-in-right sponsort-nero" />
             </div>
 
             <div className='s-img-txt'>
@@ -47,7 +48,7 @@ export default function Sponsors() {
 
                 <div className='s-img-button'>
 
-                    <img src="/images/Sponsors.png" alt="Sponsors" className=" sponsors-image" />
+                    <Image src="/images/Sponsors.png" alt="Sponsors" width={1000} height={950} className=" sponsors-image" />
 
                     <div className="fade-in-third sponsors-button">
                         <a href="https://drive.google.com/file/d/1f-LujBkqJIGSfUu-CFVlfOggvyKXhgz8/view">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Montserrat } from 'next/font/google';
+import Image from 'next/image';
 
 const montserrat = Montserrat({
     subsets: ['latin'],
@@ -17,17 +18,17 @@ export default function Home() {
             <div className="bg-plain-grey w-screen h-screen min-h-screen relative">
                 <div className='flex'>
                     <div className="main-all">
-                            <img src="/images/Homeleft.png" alt="Home" className="home-image-left slide-in-left"/>
+                            <Image src="/images/Homeleft.png" alt="Home" width={375} height={500} className="home-image-left slide-in-left"/>
 
                             <div className="main-img-txt"> 
-                                <img src="/images/logo-transparent.png" alt="MIND Logo" className="logo-image animate-logo"/>
+                                <Image src="/images/logo-transparent.png" alt="MIND Logo" width={500} height={500} className="logo-image animate-logo"/>
                                     <div className="text-container">
                                         <p className="font-light fade-in-second sub-heading">At the University of Calgary</p>
                                         <h1 className="font-semibold fade-in-third slogan">Moving Minds, One Neuron at a Time</h1>
                                     </div>
                             </div>
 
-                            <img src="/images/Home.png" alt="Home" className="home-image-right slide-in-right"/>
+                            <Image src="/images/Home.png" alt="Home" width={375} height={500} className="home-image-right slide-in-right"/>
                     </div>
                 </div>
             </div>

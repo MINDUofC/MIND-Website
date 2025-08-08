@@ -1,4 +1,5 @@
 import { Montserrat } from 'next/font/google';
+import Image from 'next/image';
 
  const montserrat = Montserrat({
     subsets: ['latin'],
@@ -14,7 +15,7 @@ export default function Projects() {
     return (
         <div className={`${montserrat.className}`}>
         <div className="bg-blue full-bgproject">
-            <img src="/images/white-logo-transparent.png" alt="MIND Logo" className="absolute right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
+            <Image src="/images/white-logo-transparent.png" alt="MIND Logo" width={100} height={100} className="absolute right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
             <h2 className="font-extrabold fade-in project">Our Projects</h2>
 
             <div className='p1'>
@@ -30,7 +31,7 @@ export default function Projects() {
                     </p>
                 </div>
 
-                <img src="/images/headset.PNG" alt="Projects" className="transform slide-in-right project-image1" />
+                <Image src="/images/headset.PNG" alt="Projects" width={260} height={350} className="transform slide-in-right project-image1" />
 
             </div>
 
@@ -51,7 +52,7 @@ export default function Projects() {
                     boundaries of assistive technology.
                     </p>
                 </div>
-                <img src="/images/ARM.png" alt="Projects" className=" transform slide-in-right project-image2" />
+                <Image src="/images/ARM.png" alt="Projects" width={4000} height={4000} className=" transform slide-in-right project-image2" />
 
             </div>
             

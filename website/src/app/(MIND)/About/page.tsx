@@ -1,4 +1,6 @@
 import { Montserrat } from 'next/font/google';
+import Image from 'next/image';
+
 
  const montserrat = Montserrat({
     subsets: ['latin'],
@@ -14,7 +16,7 @@ export default function About() {
     return ( 
         <div className={`${montserrat.className}`}>
         <div className="bg-light-blue(u-d) full-bgabout relative">
-            <img src="/images/white-logo-transparent.png" alt="MIND Logo" className="object-contain absolute top-0 right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
+            <Image src="/images/white-logo-transparent.png" alt="MIND Logo" width={100} height={100} className="object-contain absolute top-0 right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
             <h2 className="font-bold drop-shadow-lg fade-in about-us">About Us</h2>
             <div className="ab-container">
                 <div className="bg-white p-6 rounded-lg shadow-lg mx-auto text-center fade-in about-us-one">
@@ -36,7 +38,7 @@ export default function About() {
                             innovation with human benefit.
                             </p>
 
-                        <img src="/images/OM1.png" alt="MIND Logo" className=" about-us-one-image " />
+                        <Image src="/images/OM1.png" alt="MIND Logo" width={325} height={500} className=" about-us-one-image " />
                         </div>
                     </div>
                 
@@ -54,7 +56,7 @@ export default function About() {
                             assists individuals in executing their intended
                             movements accurately.
                             </p>
-                        <img src="/images/OM2.png" alt="OM2" className="about-us-two-image " />
+                        <Image src="/images/OM2.png" alt="OM2" width={300} height={500} className="about-us-two-image " />
                     </div>
                 </div>
 

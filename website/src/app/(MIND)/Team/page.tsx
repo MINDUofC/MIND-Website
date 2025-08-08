@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { Montserrat } from 'next/font/google';
+import Image from 'next/image';
 
  const montserrat = Montserrat({
     subsets: ['latin'],
@@ -25,7 +26,7 @@ export default function Team() {
                 
                 <h2 className="font-bold drop-shadow-lg fade-in team">Our Team</h2>
                 
-                <img src="/images/Team.jpg" alt="Team" className="fade-in-second team-image"/>
+                <Image src="/images/Team.jpg" alt="Team" width={2800} height={1800} className="fade-in-second team-image"/>
                 
 
                 <h1 className="font-regular drop-shadow-lg fade-in-second team-para max-w-[90%]">
