@@ -11,7 +11,7 @@ const montserrat = Montserrat({
 export function Header() {
     return(
         <main className={montserrat.className}>
-        <header className=" bg-backgroun nav-bar">
+        <header className=" animate-slide bg-backgroun nav-bar ">
             <div className=" justify-between w-full flex-wrap items-center justify-between">
                 <div className="font-bold flex ">
                     <img src="/images/black-logo-transparent.png" alt="MIND Logo" className="object-contain w-[75px] sm:w-[35px] md:w-[75px] lg:w-[75px] nav-logo" />

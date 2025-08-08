@@ -17,8 +17,6 @@ export default function Projects() {
             <img src="/images/white-logo-transparent.png" alt="MIND Logo" className="absolute right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
             <h2 className="font-extrabold fade-in project">Our Projects</h2>
 
-            
-
             <div className='p1'>
 
                 <div className='pt1'>

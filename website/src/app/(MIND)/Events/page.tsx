@@ -19,31 +19,35 @@ export default function Events() {
             <h2 className="font-bold drop-shadow-lg fade-in events">What&apos;s New</h2>
 
             <div className='img-text'>
-                <img src="/images/Events.png" alt="Events" className="slide-in-left events-image"/>
+                <div className='two-img'>
+                    <img src="/images/Events.png" alt="Events" className="slide-in-left events-image"/>
+                    <img src="/images/BCICar.png" alt="car" className="slide-in-left events-image"/>
+                </div>
 
                 <div className='template flex'>
+                    
 
-                    <p className="font-semibold drop-shadow-lg slide-in-left events-title1">Starting Our First Project</p>
+                    <p className="font-semibold drop-shadow-lg slide-in-left events-title1">Stay Tuned! - Summer Hiring!</p>
 
                     <p className="font-light drop-shadow-lg slide-in-right events-para1">
-                        You’ve heard of RC cars, but what about a BC car? MIND’s first project, 
-                        named NeuroDrive, is a brain-controlled car that mirrors your movements—move  
-                        your hand, and it follows! Using Brain-Computer Interface (BCI) tech, we’re 
-                        turning brain signals into motion, taking a bold step in neuromuscular research. 
-                        Wish us luck as we begin our development!
+                        We’re growing the MIND team! This summer, we’re opening roles for
+                        PCB designers (electrical engineering), upcoming workshop directors,
+                        marketing creatives, event coordinators, sponsorship liaisons, and more.
+                        Whether you’re into tech, strategy, or outreach, there’s a place for you
+                        to contribute.
                         </p>
 
                         <hr className="w-2/5 border-t-2 my-4 events-line" />
 
-                    <p className="font-semibold drop-shadow-lg slide-in-left events-title2">Winter 2025 - Upcoming Workshop</p>
+                    <p className="font-semibold drop-shadow-lg slide-in-left events-title2">Two Projects Coming Soon!</p>
 
                     <p className="font-light drop-shadow-lg slide-in-right events-para2">
-                        Kick off 2025 with MIND! This winter semester, we’re bringing you two
-                        exciting workshops to dive into neurotechnology and signal processing.
-                        Our first workshop on February 28 will cover Python fundamentals,
-                        NumPy, SciPy, and an intro to signal processing—perfect for beginners
-                        and those looking to sharpen their skills! Stay tuned for more details
-                        and get ready to code, analyze, and explore with us.
+                        This summer, we’re pushing the limits of neurotechnology with two
+                        exciting projects nearing completion. First up is NeuroDrive, our brain-
+                        controlled car—only the final integration phase remains. Alongside it,
+                        we’re developing BCI-powered games that respond to eye blinks and
+                        relaxation signals, turning brain activity into gameplay. Stay tuned as
+                        we wrap up both by August!
                     </p>
                 </div>
             </div>

@@ -62,27 +62,26 @@
 
   @keyframes slideIn {
     0% {
-        transform: translateY(-100vh) translateX(-50%);
+        transform: translateY(-150%) translateX(0);
         opacity: 0;
     }
     80% {
-      transform: translateY(-264px) translateX(-50%); /* Move close to the final position */
-      opacity: 1; /* Fully visible */
+      transform: translateY(0) translateX(0);
+      opacity: 1;
     }
     90% {
-      transform: translateY(-297px) translateX(-50%); /* Overshoot the final position slightly */
+      transform: translateY(-10%) translateX(0);
     }
     100% {
-        transform: translateY(-330px) translateX(-50%);
+        transform: translateY(0) translateX(0);
         opacity: 1;
     }
 }
 
-/* .animate-logo {
-    animation: slideIn 1s ease-out, bounce 0.4s ease-out 0.9s forwards;;
-} */
+.animate-logo {
+    animation: slideIn 2s ease-out, bounce 2s ease-out 3s forwards;;
+}
 
-/* Define the fade-in animation */
 .fade-in {
   opacity: 0;
   animation: fadeInAnimation 2s forwards;
@@ -91,13 +90,13 @@
 .fade-in-second {
   opacity: 0;
   animation: fadeInAnimation 2s forwards;
-  animation-delay: 1s; /* Delay of 1 second */
+  animation-delay: 1s;
 }
 
 .fade-in-third {
   opacity: 0;
   animation: fadeInAnimation 2s forwards;
-  animation-delay: 2s; /* Delay of 2 seconds */
+  animation-delay: 2s;
 }
 
 @keyframes fadeInAnimation {
@@ -106,28 +105,24 @@
   }
 }
 
-/* .slide-in-left {
-  opacity: 0; 
-  transform: translateX(-100vw); 
+.slide-in-left {
   animation: slideInFromLeft 2s ease-out forwards;
 }
 
 
 .slide-in-right {
-  opacity: 0; 
-  transform: translateX(100vw); 
   animation: slideInFromRight 2s ease-out forwards;
-} */
+}
 
 /* Keyframes for sliding in from the left */
 @keyframes slideInFromLeft {
   0% {
     opacity: 0; /* Initially invisible */
-    transform: translateX(-100vw); /* Start far left */
+    transform: translateX(-100%); /* Start far left */
   }
   100% {
     opacity: 1; /* Fade in */
-    transform: translateX(0), translateY(100%); /* End in normal position */
+    transform: translateX(0)
   }
 }
 
@@ -135,28 +130,26 @@
 @keyframes slideInFromRight {
   0% {
     opacity: 0; /* Initially invisible */
-    transform: translateX(100vw); /* Start far right */
+    transform: translateX(100%); /* Start far right */
   }
   100% {
     opacity: 1; /* Fade in */
-    transform: translateX(0), translateY(100%); /* End in normal position */
+    transform: translateX(0)
   }
 }
 
 .slide-in-right-delay {
-  opacity: 0; /* Start invisible */
-  transform: translateX(100vw); /* Start off the screen to the right */
-  animation: slideInFromRightD 4s ease-out forwards;
+  animation: slideInFromRightD 3s ease-out forwards;
 }
 
 @keyframes slideInFromRightD {
   0% {
     opacity: 0; /* Initially invisible */
-    transform: translateX(100vw); /* Start far right */
+    transform: translateX(100%); /* Start far right */
   }
   100% {
     opacity: 1; /* Fade in */
-    transform: translateX(0), translateY(100%); /* End in normal position */
+    transform: translateX(0)
   }
 }
 
@@ -175,87 +168,53 @@
     display: flex; 
     flex-direction: row;
   }
+
+  .main-all {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 4rem;
+    height: 85vh;
+  }
+  .main-img-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .logo-image {
     width: 500px;
     height: auto;
-
-  }
-  .container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-    margin-top: 2rem;
-
   }
 
   .home-image-right {
-    width: 425px;
+    width: 375px;
     height: auto;
-    display: flex;
-    justify-content: flex-end;
-    /* right: 10px;
-    top: 50%;
-    transform: translateY(-75%); */
   }
 
   .home-image-left {
-    width: 425px;
+    width: 375px;
     height: auto;
-    display: flex;
-    justify-content: flex-start;
-    /* left: 10px;
-    top: 50%;
-    transform: translateY(-75%); */
-  }
-  .center-content-wrapper {
-    display: flex;
-    flex-direction: column; /* Stacks children vertically */
-    align-items: center; /* Centers children horizontally */
-    justify-content: center; /* Centers children vertically within the wrapper */
-    text-align: center; /* Centers the text inside the text container */
-    flex-grow: 1; /* Allows this wrapper to take up the available space in the middle */
-  }
-  .mind-logo-text {
-    font-size: 2rem; /* or whatever size you need */
-    font-weight: 600; /* or bold */
-    color: #0047B2;
-    margin-top: 10px; /* Adjust this value for desired spacing below the logo */
   }
 
   .main-heading {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
     font-size: 4.5rem; 
     color: #0047B2;
   }
-  .text-container {
-    margin-top: 4rem; /* Adjust this value to create a large gap between MIND and the text block */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* This is key to aligning the text to the left */
-  }
-
-  .main-content-area {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center the text and logo horizontally */
-    justify-content: center; /* Center them vertically */
-    text-align: center;
-  /* You might need to add a width or flex-grow here */
-    flex-grow: 1; 
-  }
 
   .sub-heading {
-
     font-size: 1.5rem; 
     color: #0047B2;
   }
 
   .slogan {
-
     font-size: 2rem; 
     color: #0047B2;
   }
@@ -405,6 +364,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
+    gap: 2rem;
   }
 
   .contact-us-sub{
@@ -419,8 +379,6 @@
   }
 
   .linkedIn{
-    margin-left: 3rem;
-    margin-right: 3rem;
     width: 75px; 
     height: 75px;
   }
@@ -533,10 +491,10 @@
   .template{
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content:center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 90%;
   }
 
   .img-text{
@@ -544,10 +502,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
-    width: 100%;
+    gap: 5rem;
+    width: 95%;
     margin: 0 auto;
   }
+
 
   .events-title1{
     color: #002960;
@@ -729,39 +688,50 @@
     }
     .logo-image {
       width: 200px;
-      top: 51%;
-      left: 55%;
-      transform: translate(-50%, -66%);
+      height: auto;
     }
 
     .home-image-right{
-      width: 100px;
-      top: 50%;
+      width: 0px;
+      height: auto;
     }
     .home-image-left {
-      width: 100px;
-      top: 50%;
-      right: 10%
+      width: 0px;
+      height: auto;
+    }
+
+    .main-all {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      gap: 4rem;
+      height: 85vh;
+    }
+    .main-img-txt {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; 
+      text-align: center; 
+      margin-left: 1rem;
+    }
+
+    .text-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .main-heading {
-      font-size: 1.8rem; /* text-3xl */
-      top: 51%;
-      left: 31%;
-      transform: translateX(-50%);
+      font-size: 1.8rem;
     }
 
     .sub-heading {
       font-size: 0.8rem; /* text-xl */
-      top: 55%;
-      left: 43%;
-      transform: translateX(-50%);
     }
 
     .slogan {
       font-size: 0.9rem; /* text-2xl */
-      top: 60%;
-      left: 55%;
     }
 
     .full-bg {
@@ -810,7 +780,6 @@
     .contact-us{
       color: #002960;
       font-size: 3.5rem;
-      text-align: center;
 
     }
 
@@ -841,21 +810,23 @@
     }
     .txt{
       display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-right: 0.1rem;
     }
 
     .img-txt{
-      justify-content: flex-start;
-      align-items: flex-start;
+      justify-content: center;
+      align-items: center;
 
     }
 
     .click{
       flex-direction: row;
-      align-items: flex-start;
-      justify-content: flex-start;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
     }
 
 
@@ -872,8 +843,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 2rem;
-      margin-left: 1rem;
 
     }
     .s-img-button{
@@ -882,31 +851,31 @@
       align-items: center;
     }
     .s-content{
-      display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
     .s-img-txt{
-      display: flex;
-      margin-top: 1.5rem;
       flex-direction: column;
       align-items: center;
     }
 
     .sponsors{
       color: #FFFFFF;
-      font-size: 2.8rem;
+      font-size: 2rem;
     }
 
     .sponsors-title{
       color: #FFFFFF;
-      font-size: 1.8rem; /* text-2xl */
+      font-size: 1.5rem; /* text-2xl */
+      margin-right: 1rem;
     }
 
     .sponsors-para{
       color: #FFFFFF;
-      font-size: 0.65rem;
+      font-size: 0.6rem;
+      width: 90%;
+      margin-right: 2.2rem;
     }
 
     .sponsors-button{
@@ -948,16 +917,15 @@
 
   }
 
-    /* .img-text{
+    .img-text{
       display: flex;
       flex-direction: row;
       justify-content: center;
-      align-items: flex-start;
-      gap: 4rem;
+      align-items: center;
+      gap: 5rem;
       max-width: 1200px;
-      width: 90%;
-      margin: 0 auto;
-  } */
+      width: 80%;
+  }
 
     .events{
       text-align: center;
@@ -978,6 +946,7 @@
       font-size: 1.5rem;
       width: 100%;
       margin-bottom: 0.5rem;
+      margin-right: 3rem;
     }
 
     .events-title2{
@@ -985,23 +954,27 @@
       font-size: 1.5rem;
       width: 100%;
       margin-bottom: 0.5rem;
+      margin-right: 3rem;
     }
 
     .events-para1{
       color: #002960;
       font-size: 1rem;
       width: 100%;
+      margin-right: 3rem;
     }
 
     .events-para2{
       color: #002960;
       font-size: 1rem;
       width: 100%;
+      margin-right: 3rem;
     }
 
     .events-line{
       color: #002960;
       width: 100%;
+      margin-right: 3rem;
     }
 
     .full-bgevents {
@@ -1226,9 +1199,6 @@
     .logo-image {
       width: 350px;
       height: auto;
-      top: 47%;
-      left: 50%;
-      transform: translate(-50%, -66%);
     }
 
     .other-bar{
@@ -1241,26 +1211,39 @@
     .home-image-right, 
     .home-image-left {
       width: 250px;
-      top: 48%;
+      height: auto;
+    }
+
+    .main-all {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      gap: 4rem;
+      height: 85vh;
+    }
+    .main-img-txt {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; 
+      text-align: center; 
+    }
+    .text-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .main-heading {
       font-size: 2.8rem; /* text-4xl */
-      top: 47%;
-      left: 33%;
-      transform: translateX(-50%);
     }
 
     .sub-heading {
       font-size: 1.3rem; /* text-2xl */
-      top: 51%;
-      left: 40%;
-      transform: translateX(-50%);
     }
 
     .slogan {
       font-size: 1.5rem; /* text-3xl */
-      top: 55%;
     }
 
     .full-bg {
@@ -1388,21 +1371,25 @@
     .txt{
       flex-direction: column;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
+      text-align: center;
     }
 
     .img-txt{
       display: flex;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: center;
+      flex-direction: row;
 
     }
 
     .click{
       display: flex;
       flex-direction: row;
-      align-items: flex-start;
-      justify-content: flex-start;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      gap: 2rem;
     }
 
     .contact-us-sub{
@@ -1427,7 +1414,7 @@
     }
 
     .contact-image{
-      width: 400px;
+      width: 350px;
       height: auto;
     }
 
@@ -1525,11 +1512,17 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
-      align-items: flex-start;
-      gap: 4rem;
+      align-items: center;
+      gap: 5rem;
       width: 90%;
       margin: 0 auto;
   }
+
+    .two-img{
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+    }
 
     .events{
       text-align: center;
@@ -1539,10 +1532,9 @@
     }
 
     .events-image{
-      width: 420px;
+      width: 350px;
       height: auto;
       object-fit: contain;
-      flex: 1;
     }
     .events-title1{
       color: #002960;
