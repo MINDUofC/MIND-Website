@@ -60,6 +60,33 @@
 
 @layer base {
 
+
+  @keyframes apper {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  .animate-apper {
+    animation: apper 750ms ease-in-out;
+  }
+
+  .animate-slide {
+    animation: slide 750ms ease-in-out;
+  }
+
   @keyframes slideIn {
     0% {
         transform: translateY(-150%) translateX(0);
