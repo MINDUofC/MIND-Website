@@ -14,7 +14,15 @@ export const metadata = {
 export default function Events() {
     return (
         <div className={`${montserrat.className}`}>
-        <div className="bg-allfour full-bgevents">
+            <div
+                style={{
+                    overflowX: 'hidden',
+                    minHeight: '100vh',
+                    backgroundImage: "url('/images/allfour.png')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }}
+                    >
             <Image src="/images/white-logo-transparent.png" alt="MIND Logo" width={100} height={100} className="absolute right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
 
             <h2 className="font-bold drop-shadow-lg fade-in events">What&apos;s New</h2>

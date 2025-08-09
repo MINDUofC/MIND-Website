@@ -16,8 +16,15 @@ export const metadata = {
 export default function Sponsors() {
     return (
         <div className={`${montserrat.className}`}>
-        <div className="bg-grey full-bgsponsors ">
-
+            <div
+                style={{
+                    overflowX: 'hidden',
+                    minHeight: '100vh',
+                    backgroundImage: "url('/images/grey.png')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }}
+                    >
 
             <div className='s-heading'>
                 <h2 className="font-extrabold text-7xl slide-in-left drop-shadow-lg sponsors">Our Sponsors</h2>

@@ -15,7 +15,15 @@ export default function Home() {
     return (
         <div className={`${montserrat.className}`}>
 
-            <div className="bg-plain-grey w-screen h-screen min-h-screen relative">
+            <div
+                style={{
+                    overflowX: 'hidden',
+                    minHeight: '100vh',
+                    backgroundImage: "url('/images/gradient.png')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }}
+                    >
                 <div className='flex'>
                     <div className="main-all">
                             <Image src="/images/Homeleft.png" alt="Home" width={375} height={500} className="home-image-left slide-in-left"/>

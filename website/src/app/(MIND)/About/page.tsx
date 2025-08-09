@@ -15,8 +15,16 @@ export const metadata = {
 export default function About() {
     return ( 
         <div className={`${montserrat.className}`}>
-        <div className="bg-light-blue(u-d) full-bgabout relative">
-            <Image src="/images/white-logo-transparent.png" alt="MIND Logo" width={100} height={100} className="object-contain absolute top-0 right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
+            <div
+                style={{
+                    overflowX: 'hidden',
+                    minHeight: '100vh',
+                    backgroundImage: "url('/images/light-blue(upsidedown).png')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }}
+                    >
+            <Image src="/images/white-logo-transparent.png" alt="MIND Logo" width={100} height={100} className="absolute right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
             <h2 className="font-bold drop-shadow-lg fade-in about-us">About Us</h2>
             <div className="ab-container">
                 <div className="bg-white p-6 rounded-lg shadow-lg mx-auto text-center fade-in about-us-one">

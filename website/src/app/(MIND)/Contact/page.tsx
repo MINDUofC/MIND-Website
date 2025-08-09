@@ -14,7 +14,15 @@ export const metadata = {
 export default function Contact() {
     return (
         <div className={`${montserrat.className}`}>
-        <div className="bg-grey-blue full-bgcontact">
+            <div
+                style={{
+                    overflowX: 'hidden',
+                    minHeight: '100vh',
+                    backgroundImage: "url('/images/grey-blue.png')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }}
+                    >
             <Image src="/images/black-logo-transparent.png" alt="MIND Logo"width={100} height={100} className="absolute right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
             <div className='img-txt'>
                 <div className='txt'>

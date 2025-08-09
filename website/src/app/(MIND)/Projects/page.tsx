@@ -14,7 +14,15 @@ export const metadata = {
 export default function Projects() {
     return (
         <div className={`${montserrat.className}`}>
-        <div className="bg-blue full-bgproject">
+            <div
+                style={{
+                    overflowX: 'hidden',
+                    minHeight: '100vh',
+                    backgroundImage: "url('/images/blue.png')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }}
+                    >
             <Image src="/images/white-logo-transparent.png" alt="MIND Logo" width={100} height={100} className="absolute right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
             <h2 className="font-extrabold fade-in project">Our Projects</h2>
 

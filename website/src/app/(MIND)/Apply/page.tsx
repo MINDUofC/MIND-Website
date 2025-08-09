@@ -15,7 +15,15 @@ export const metadata = {
 export default function Apply() {
     return (
         <div className={`${montserrat.className}`}>
-        <div className="bg-dark-blue full-bgapply">
+            <div
+                style={{
+                    overflowX: 'hidden',
+                    minHeight: '100vh',
+                    backgroundImage: "url('/images/dark-blue.png')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }}
+                    >
             <Image src="/images/white-logo-transparent.png" alt="MIND logo" width={100} height={100} className=" absolute right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
             <div className="apply-box">
                 <h2 className="font-extrabold text-7xl slide-in-left drop-shadow-lg Apply">APPLY</h2>

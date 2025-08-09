@@ -20,7 +20,15 @@ export default function Team() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
         <div className={`${montserrat.className}`}>
-        <div className="bg-light-blue full-bgteam">
+            <div
+                style={{
+                    overflowX: 'hidden',
+                    minHeight: '100vh',
+                    backgroundImage: "url('/images/light-blue.png')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }}
+                    >
         <div className="flex items-center justify-center p-8">
             <div className="bg-white rounded-3xl team-bg relative">
                 
