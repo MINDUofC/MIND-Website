@@ -14,10 +14,10 @@ export default function Footer() {
             <a href='https://www.instagram.com/mind.uofc/' style={{ display: 'inline-block', padding: 0, margin: 0 }}>
             <i className="fa-brands fa-instagram fa-2xl btn" style={{ color: "#ffffff" }}></i>
             </a>
-            <a href='mailto:uofc.mind@gmail.com' style={{ display: 'inline-block', padding: 0, margin: 0 }}>
+            <a href='https://www.linkedin.com/company/mind-uofc/' style={{ display: 'inline-block', padding: 0, margin: 0 }}>
             <i className="fa-brands fa-square-linkedin custom-icon fa-2xl btn"></i>
             </a>
-            <a href='https://www.linkedin.com/company/mind-uofc/' style={{ display: 'inline-block', padding: 0, margin: 0 }}>
+            <a href='mailto:uofc.mind@gmail.com' style={{ display: 'inline-block', padding: 0, margin: 0 }}>
             <i className="fa-solid fa-envelope fa-2xl btn" style={{ color: "#ffffff" }}></i>
             </a>
 
