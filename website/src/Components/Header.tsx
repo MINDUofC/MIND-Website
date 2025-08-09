@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { NavButton } from "@/Components/NavButton";
 import Image from 'next/image';
-import { useState } from 'react'; // Import useState hook
+import { useState } from 'react';
 
 import { Montserrat } from 'next/font/google';
 const montserrat = Montserrat({
