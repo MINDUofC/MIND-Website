@@ -1,5 +1,6 @@
 import { Montserrat } from 'next/font/google';
 import Image from 'next/image';
+import Footer from "@/Components/footer";
 
 
  const montserrat = Montserrat({
@@ -27,7 +28,7 @@ export default function About() {
             <Image src="/images/white-logo-transparent.png" alt="MIND Logo" width={100} height={100} className="absolute right-0 w-[75px] sm:w-[75px] md:w-[75px] lg:w-[100px]" />
             <h2 className="font-bold drop-shadow-lg fade-in about-us">About Us</h2>
             <div className="ab-container">
-                <div className="bg-white p-6 rounded-lg shadow-lg mx-auto text-center fade-in about-us-one">
+                <div className="bg-white p-6 rounded-lg shadow-lg mx-auto text-center fade-in about-us-one pad">
                     <div className="container-one">
 
                         <p className="font-bold about-us-one-title">Who We Are</p>
@@ -50,7 +51,7 @@ export default function About() {
                         </div>
                     </div>
                 
-                <div className="bg-white p-6 rounded-lg shadow-lg text-center fade-in about-us-two">
+                <div className="bg-white p-6 rounded-lg shadow-lg text-center fade-in about-us-two pad">
                     <div className="container-two">
 
                         <h2 className=" font-bold p-1 about-us-two-title">The Mission</h2>
@@ -69,6 +70,7 @@ export default function About() {
                 </div>
 
             </div>
+            <Footer />
         </div>
         </div>
         

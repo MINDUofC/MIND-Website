@@ -1,6 +1,7 @@
 import React from 'react';
 import { Montserrat } from 'next/font/google';
 import Image from 'next/image';
+import Footer from "@/Components/footer";
 
 const montserrat = Montserrat({
     subsets: ['latin'],
@@ -39,7 +40,9 @@ export default function Home() {
                             <Image src="/images/Home.png" alt="Home" width={375} height={500} className="home-image-right slide-in-right"/>
                     </div>
                 </div>
+                <Footer />
             </div>
+            
         </div>
         
     );

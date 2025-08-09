@@ -1,5 +1,6 @@
 import { Montserrat } from 'next/font/google';
 import Image from 'next/image';
+import Footer from "@/Components/footer";
 
  const montserrat = Montserrat({
     subsets: ['latin'],
@@ -60,6 +61,7 @@ export default function Events() {
                     </p>
                 </div>
             </div>
+            <Footer />
         </div>
         </div>
 

@@ -2,6 +2,7 @@
 import { Montserrat } from 'next/font/google';
 import { Button } from '@/Components/ui/button';
 import Image from 'next/image';
+import Footer from "@/Components/footer";
 
  const montserrat = Montserrat({
     subsets: ['latin'],
@@ -19,7 +20,7 @@ export default function Sponsors() {
             <div
                 style={{
                     overflowX: 'hidden',
-                    minHeight: '100vh',
+                    minHeight: '90vh',
                     backgroundImage: "url('/images/grey.png')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
@@ -59,14 +60,15 @@ export default function Sponsors() {
 
                     <div className="fade-in-third sponsors-button">
                         <a href="https://drive.google.com/file/d/1f-LujBkqJIGSfUu-CFVlfOggvyKXhgz8/view">
-                            <Button className="s-button "variant="ghost" size="lg" style={{color: '#FFFFFF'}}>Become a Sponsor</Button>
+                            <Button className="s-btn">Become a Sponsor</Button>
                         </a>
                     </div>
                 </div>
 
             </div>
-
+            
         </div>
+        <Footer />
         </div>
     )
 }

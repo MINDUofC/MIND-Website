@@ -186,6 +186,76 @@
 @layer utilities {
   /* Default Large Screens */
 
+  .custom-icon {
+    color: white;
+    background-color: #23232e;
+  }
+  .custom-icon.swap {
+    color: #23232e;
+    background-color: white;
+  }
+  .f-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .f-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .f-txt{
+    display: flex;
+  }
+
+  /* variant="ghost" size="lg" style={{color: '#85C7F2'}} */
+  .a-btn:hover{
+    background-color: #5C8FFF;
+    transform: scale(1.2);
+  }
+
+  .a-btn{
+    background-color: #002960;
+    border: 1px solid;
+    color: #85C7F2;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .s-btn:hover{
+    background-color: #FFFFFF;
+    transform: scale(1.2);
+  }
+
+  .s-btn{
+    background-color: #FFFFFF;
+    border: 1px solid;
+    transition: transform 0.4s ease-in-out;
+  }
+
+
+
+  .btn:hover{
+    transform: scale(1.1);
+  }
+
+  .btn{
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .pad:hover{
+    transform: scale(1.025);
+  }
+
+  .pad{
+    transition: transform 0.2s ease-in-out;
+  }
+
   .nav-logo{
     width: 75px;
     height: auto;
@@ -311,6 +381,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-bottom: 2rem;
   }
 
   .about-us-one-image{
@@ -329,6 +400,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-bottom: 2rem;
   }
   .about-us-two-image{
     margin-top: 2rem;
@@ -367,6 +439,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 2rem;
+    margin-top: 1rem;
   }
 
   .contact-us-sub{
@@ -628,7 +701,7 @@
 
   /* Small Screens (max-width: 600px) */
   @media only screen and (max-width: 600px) {
-    .nav-bar{
+    /* .nav-bar{
       gap: -10px;
       font-size: 0.4rem;
       padding: 1px;
@@ -638,11 +711,10 @@
 
     .nav-logo{
       width: 35px;
-    }
+    } */
     .other-bar{
-      flex-direction: row;
-      display: flex;
-      align-items: center;
+      display: none;
+
     }
     .logo-image {
       width: 200px;
@@ -785,6 +857,7 @@
       align-items: center;
       justify-content: center;
       gap: 2rem;
+      margin-top: 1rem;
     }
 
 
@@ -1346,7 +1419,7 @@
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      margin: 0 auto;
+      margin-top: 1rem;
       gap: 2rem;
     }
 

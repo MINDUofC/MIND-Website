@@ -1,6 +1,7 @@
 import { Montserrat } from 'next/font/google';
 import { Button } from '@/Components/ui/button';
 import Image from 'next/image';
+import Footer from "@/Components/footer";
 
  const montserrat = Montserrat({
     subsets: ['latin'],
@@ -18,7 +19,7 @@ export default function Apply() {
             <div
                 style={{
                     overflowX: 'hidden',
-                    minHeight: '100vh',
+                    minHeight: '90vh',
                     backgroundImage: "url('/images/dark-blue.png')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
@@ -30,11 +31,13 @@ export default function Apply() {
                 <p className="font-regular text-3xl drop-shadow-lg fade-in-second sub-apply">We receive applications twice a year at the start of the Fall and Winter semesters.</p>
                 <div className="fade-in-second apply-button">
                     <a href='https://docs.google.com/forms/d/e/1FAIpQLSdCBThGsj4exQjhvocI64m8Z-XZW98HW8wArLo4BFWP682VUw/closedform'>
-                    <Button variant="ghost" size="lg" style={{color: '#85C7F2'}}>Click Here!</Button>
+                    <Button className="a-btn">Click Here!</Button>
                     </a>
                 </div>
             </div>
+            
         </div>
+        <Footer />
         </div>
     )
 }
