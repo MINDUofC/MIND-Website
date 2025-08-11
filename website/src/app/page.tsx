@@ -25,7 +25,6 @@ export default function Home() {
                     backgroundPosition: "center",
                 }}
                     >
-                <div className='flex'>
                     <div className="main-all">
                             <Image src="/images/Homeleft.png" alt="Home" width={375} height={500} className="home-image-left slide-in-left"/>
 
@@ -39,7 +38,6 @@ export default function Home() {
 
                             <Image src="/images/Home.png" alt="Home" width={375} height={500} className="home-image-right slide-in-right"/>
                     </div>
-                </div>
                 <Footer />
             </div>
             

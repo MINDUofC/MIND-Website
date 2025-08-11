@@ -64,8 +64,9 @@ export default function Projects() {
                 <Image src="/images/ARM.png" alt="Projects" width={4000} height={4000} className=" transform slide-in-right project-image2" />
 
             </div>
-            <Footer />
+            
         </div>
+        <Footer />
         </div>
 
     )

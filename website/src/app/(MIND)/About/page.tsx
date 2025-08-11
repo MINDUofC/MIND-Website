@@ -70,8 +70,9 @@ export default function About() {
                 </div>
 
             </div>
-            <Footer />
+            
         </div>
+        <Footer />
         </div>
         
         )

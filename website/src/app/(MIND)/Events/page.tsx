@@ -61,8 +61,9 @@ export default function Events() {
                     </p>
                 </div>
             </div>
-            <Footer />
+            
         </div>
+            <Footer />
         </div>
 
     )
