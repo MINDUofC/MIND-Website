@@ -30,7 +30,7 @@ export default function Apply() {
                 <h2 className="font-extrabold text-7xl slide-in-left drop-shadow-lg Apply">APPLY</h2>
                 <p className="font-regular text-3xl drop-shadow-lg fade-in-second sub-apply">We receive applications twice a year at the start of the Fall and Winter semesters.</p>
                 <div className="fade-in-second apply-button">
-                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSdCBThGsj4exQjhvocI64m8Z-XZW98HW8wArLo4BFWP682VUw/closedform'>
+                    <a href='https://forms.gle/GXtw8BN5XNdMD4Kt8'>
                     <Button className="a-btn">Click Here!</Button>
                     </a>
                 </div>
