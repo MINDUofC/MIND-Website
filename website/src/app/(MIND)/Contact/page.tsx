@@ -43,7 +43,7 @@ export default function Contact() {
                         </a>
                     </div>
                 </div>
-                <Image src="/images/Contact Us.png" alt="Contact" width={5000} height={5000} className="transform slide-in-right contact-image" />
+                <Image src="/images/Contact-Us.png" alt="Contact" width={5000} height={5000} className="transform slide-in-right contact-image" />
             </div>
             
         </div>
