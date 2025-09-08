@@ -42,8 +42,8 @@ export default function About() {
                             to transform how technology interacts with
                             the brain to enhance life for those with
                             neuromuscular disabilities. Founded in
-                            February 2024 by Nihar Trivedi and Taha
-                            Malik, MIND is committed to merging
+                            February 2024 by Nihar Trivedi, Taha
+                            Malik and Zeeshan Chaudhry, MIND is committed to merging
                             innovation with human benefit.
                             </p>
 
