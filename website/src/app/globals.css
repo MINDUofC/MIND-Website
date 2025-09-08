@@ -230,6 +230,7 @@
   .s-btn:hover{
     background-color: #FFFFFF;
     transform: scale(1.2);
+    padding: 1rem;
   }
 
   .s-btn{
@@ -478,6 +479,9 @@
     justify-content: center;
     gap: 2rem;
 
+  }
+  .s-head{
+    align-items: center;
   }
   .s-img-button{
     display: flex;
@@ -893,7 +897,9 @@
       flex-direction: column;
       align-items: center;
     }
-
+    .s-head{
+      align-items: center;
+    }
     .sponsors{
       color: #FFFFFF;
       font-size: 2rem;
@@ -1489,7 +1495,9 @@
       display: flex;
       margin-top: 1.5rem;
     }
-
+    .s-head{
+      align-items: center;
+    }
     .sponsors{
       color: #FFFFFF;
       font-size: 3.75rem;

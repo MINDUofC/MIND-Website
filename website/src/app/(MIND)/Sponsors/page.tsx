@@ -28,7 +28,7 @@ export default function Sponsors() {
                     >
 
             <div className='s-heading'>
-                <h2 className="font-extrabold text-7xl slide-in-left drop-shadow-lg sponsors">Our Sponsors</h2>
+                <h2 className="font-extrabold text-7xl slide-in-left drop-shadow-lg sponsors s-head">Our Sponsors</h2>
                 <Image src="/images/engg-logo.png" alt="engg-logo" width={375} height={150} className="slide-in-right sponsors-engg" />
                 <Image src="/images/NP.png" alt="NP-logo" width={165} height={165} className="slide-in-right sponsort-nero" />
             </div>
@@ -36,7 +36,7 @@ export default function Sponsors() {
             <div className='s-img-txt'>
 
                 <div className='s-content'>
-                    <p className="font-bold text-6xl fade-in-second drop-shadow-lg sponsors-title">Innovate with us. <br /> Become a Sponsor</p>
+                    <p className="font-bold text-6xl fade-in-second drop-shadow-lg sponsors-title s-head">Innovate with us. <br /> Become a Sponsor</p>
 
 
                     <p className="font-regular text-xl fade-in-third sponsors-para">
