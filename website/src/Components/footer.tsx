@@ -3,7 +3,7 @@ import Script from "next/script";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#23232e] py-14">
+    <footer className="bg-[#23232e] py-14" style ={{ position: 'relative', zIndex: 2 }}>
       <div className=" f-container ">
         <Script
           src="https://kit.fontawesome.com/91f6d50e86.js"

@@ -29,13 +29,11 @@ export default function Sponsors() {
 
             <div className='s-heading'>
                 <h2 className="font-extrabold text-7xl slide-in-left drop-shadow-lg sponsors s-head">Our Sponsors</h2>
-                <Image src="/images/engg-logo.png" alt="engg-logo" width={375} height={150} className="slide-in-right sponsors-engg" />
-                <Image src="/images/NP.png" alt="NP-logo" width={165} height={165} className="slide-in-right sponsort-nero" />
             </div>
 
             <div className='s-img-txt'>
 
-                <div className='s-content'>
+                <div className='s-content s-container'>
                     <p className="font-bold text-6xl fade-in-second drop-shadow-lg sponsors-title s-head">Innovate with us. <br /> Become a Sponsor</p>
 
 
@@ -52,7 +50,13 @@ export default function Sponsors() {
                         a sponsor? <br/> Contact us at <b><u>uofc.mind@gmail.com</u></b>. Together, 
                         we can move minds, one neuron at a time.
                     </p>
+                    <div className="bg-white p-6 rounded-lg shadow-lg text-center fade-in pad s-pad">
+                        <Image src="/images/engg-logo.png" alt="engg-logo" width={375} height={150} className="slide-in-right sponsors-engg" />
+                        <Image src="/images/NP.png" alt="NP-logo" width={165} height={165} className="slide-in-right sponsort-nero" />
+                    </div>
                 </div>
+
+
 
                 <div className='s-img-button'>
 

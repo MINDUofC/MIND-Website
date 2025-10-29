@@ -2,6 +2,7 @@ import React from 'react';
 import { Montserrat } from 'next/font/google';
 import Image from 'next/image';
 import Footer from "@/Components/footer";
+import ParticlesComponent from "@/Components/particles";
 
 
 
@@ -17,7 +18,9 @@ export const metadata = {
 export default function Home() {
     return (
         <div className={`${montserrat.className}`}>
-
+            <div className='p'>
+                <ParticlesComponent id="particles" />
+            </div>
             <div
                 style={{
                     overflowX: 'hidden',
@@ -25,8 +28,11 @@ export default function Home() {
                     backgroundImage: "url('/images/gradient.png')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
+                    zIndex: 1,
                 }}
-                    >
+                    >   
+                            
+                        
                     <div className="main-all">
                             <Image src="/images/Homeleft.png" alt="Home" width={375} height={500} className="home-image-left slide-in-left"/>
 
