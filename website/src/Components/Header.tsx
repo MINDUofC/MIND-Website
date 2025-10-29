@@ -20,7 +20,7 @@ export function Header() {
 
     return (
         <main className={montserrat.className}>
-            <header className="animate-slide bg-backgroun nav-bar">
+            <header className="animate-slide bg-[#FFFFFF] nav-bar" style={{ position: 'relative', zIndex: 2 }}>
                 <div className="flex justify-between w-full flex-wrap items-center">
                     <div className="font-bold flex items-center">
                         <Image src="/images/black-logo-transparent.png" alt="MIND Logo" width={75} height={75} className="object-contain w-[75px] sm:w-[35px] md:w-[75px] lg:w-[75px] nav-logo" />
@@ -40,13 +40,13 @@ export function Header() {
 
                     {/* Desktop menu - hidden on small screens, shown on md and larger */}
                     <div className="hidden md:flex sm:gap-6 ml-auto font-bold md:gap-8 lg:gap-10 items-center text-sm sm:text-base other-bar">
-                        <NavButton href="/About" className='hover:bg-gray-200 rounded btn' label=" &nbsp; About &nbsp; " />
-                        <NavButton href="/Team" className='hover:bg-gray-200 rounded btn' label=" &nbsp; Team &nbsp; " />
-                        <NavButton href="/Projects" className='hover:bg-gray-200 rounded btn' label=" &nbsp; Projects &nbsp; " />
-                        <NavButton href="/Events" className='hover:bg-gray-200 rounded btn' label=" &nbsp; Events &nbsp; " />
-                        <NavButton href="/Apply" className='hover:bg-gray-200 rounded btn' label=" &nbsp; Apply &nbsp; " />
-                        <NavButton href="/Sponsors" className='hover:bg-gray-200 rounded btn' label=" &nbsp; Sponsors &nbsp; " />
-                        <NavButton href="/Contact" className='hover:bg-gray-200 rounded btn' label=" &nbsp; Contact &nbsp; " />
+                        <NavButton href="/About" className='hover:bg-gray-200 rounded btn' label="About" />
+                        <NavButton href="/Team" className='hover:bg-gray-200 rounded btn' label="Team" />
+                        <NavButton href="/Projects" className='hover:bg-gray-200 rounded btn' label="Projects" />
+                        <NavButton href="/Events" className='hover:bg-gray-200 rounded btn' label="Events" />
+                        <NavButton href="/Apply" className='hover:bg-gray-200 rounded btn' label="Apply" />
+                        <NavButton href="/Sponsors" className='hover:bg-gray-200 rounded btn' label="Sponsors" />
+                        <NavButton href="/Contact" className='hover:bg-gray-200 rounded btn' label="Contact" />
                     </div>
                 </div>
 

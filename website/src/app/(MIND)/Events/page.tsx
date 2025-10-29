@@ -37,27 +37,18 @@ export default function Events() {
                 <div className='template flex'>
                     
 
-                    <p className="font-semibold drop-shadow-lg slide-in-left events-title1">Stay Tuned! - Summer Hiring!</p>
+                    <p className="font-semibold drop-shadow-lg slide-in-left events-title1">Stay Tuned! - Year Round Hiring!</p>
 
                     <p className="font-light drop-shadow-lg slide-in-right events-para1">
-                        We’re growing the MIND team! This summer, we’re opening roles for
-                        PCB designers (electrical engineering), upcoming workshop directors,
-                        marketing creatives, event coordinators, sponsorship liaisons, and more.
-                        Whether you’re into tech, strategy, or outreach, there’s a place for you
-                        to contribute.
+                        We’re expanding the MIND team, and we want you to be part of it! Our mission is bold, and it takes talent from every corner of tech, science, and strategy. Year-round, we’re looking for passionate individuals in engineering (electrical, mechanical, software), neuroscience, and signal processing, as well as creative minds in marketing, business development, event coordination, and sponsorship outreach. Whether you’re excited about designing PCBs, leading workshops, building next-gen neurotech, or shaping our community presence, there’s a place for you to make an impact. Join us and help push the boundaries of brain-computer interfaces and assistive technology, your ideas could power the future.
                         </p>
 
                         <hr className="w-2/5 border-t-2 my-4 events-line" />
 
-                    <p className="font-semibold drop-shadow-lg slide-in-left events-title2">Two Projects Coming Soon!</p>
+                    <p className="font-semibold drop-shadow-lg slide-in-left events-title2">2025 - 2026 Academic Year Roadmap!</p>
 
                     <p className="font-light drop-shadow-lg slide-in-right events-para2">
-                        This summer, we’re pushing the limits of neurotechnology with two
-                        exciting projects nearing completion. First up is NeuroDrive, our brain-
-                        controlled car—only the final integration phase remains. Alongside it,
-                        we’re developing BCI-powered games that respond to eye blinks and
-                        relaxation signals, turning brain activity into gameplay. Stay tuned as
-                        we wrap up both by August!
+                        Our club has an exciting year ahead! In December 2025, we’ll present at a symposium, highlighting projects like NeuroDrive (BC‑Car), MINDStream v1.0, MINDScope, and our custom 10‑10 EEG headset. Through Winter 2026, we’ll host interactive workshops to share our progress and engage with the community. By May 2026, we’ll wrap up these smaller projects and publish results. Then, in Fall 2026, we begin our biggest challenge yet, the ExoArm Project, a multi‑year effort to create a brain‑controlled assistive exoskeleton for individuals with neuromuscular limitations. These milestones mark our journey from innovation to impact, stay tuned for what’s next!
                     </p>
                 </div>
             </div>

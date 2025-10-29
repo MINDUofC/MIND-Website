@@ -183,8 +183,28 @@
 }
 
 
+
 @layer utilities {
   /* Default Large Screens */
+  .particles canvas {
+    z-index: -1;
+    position: absolute; /* Ensure it doesn't interfere with other elements */
+  }
+
+  .s-pad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .s-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    width: 100%;
+    max-width: 1800px;
+  }
 
   .custom-icon {
     color: white;
@@ -202,16 +222,19 @@
     flex-direction: column;
     gap: 2rem;
     margin-top: 2rem;
+    z-index: 1;
   }
 
   .f-icons{
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    z-index: 1;
   }
 
   .f-txt{
     display: flex;
+    z-index: 1;
   }
 
   /* variant="ghost" size="lg" style={{color: '#85C7F2'}} */
@@ -260,12 +283,22 @@
   .nav-logo{
     width: 75px;
     height: auto;
+    z-index: 1;
   }
   .other-bar{
     align-items: center;
     display: flex; 
     flex-direction: row;
+    z-index: 1;
+    margin-right: 2rem;
   }
+
+  .p{
+    position: absolute;
+    height: 50vh;
+
+  }
+
 
   .main-all {
     display: flex;
@@ -275,6 +308,8 @@
     width: 100%;
     gap: 4rem;
     height: 85vh;
+    z-index: 1;
+    position: relative;
   }
   .main-img-txt {
     display: flex;
@@ -290,7 +325,8 @@
   }
 
   .logo-image {
-    width: 500px;
+    background-color:#c2c2c2;
+    width: 350px;
     height: auto;
   }
 
@@ -376,7 +412,7 @@
     text-align: center;
     justify-content: center;
     margin: 2rem auto;
-    color: #5C8FFF;
+    color: white;
     width: 100%;
     font-size: 5.5rem; /* text-3xl */
   }
@@ -482,6 +518,7 @@
   }
   .s-head{
     align-items: center;
+    margin-top: 30px;
   }
   .s-img-button{
     display: flex;
@@ -653,6 +690,7 @@
 
     color: #c6e3f6;
     font-size: 1.125rem;
+    padding-right: 100px;
   }
 
   .project-para2{
@@ -661,17 +699,7 @@
     font-size: 1.125rem;
   }
 
-  .project-image1{
-    object-fit: contain;
-    width: 260px;
-    height: auto;
-  }
-
-  .project-image2{
-    object-fit: contain;
-    width: 300px;
-    height: auto;
-  }
+ 
 
   .project-line{
     color: #85C7F2;
@@ -881,6 +909,7 @@
       align-items: center;
       justify-content: center;
       margin: 1rem;
+      margin-top: 30px;
 
     }
     .s-img-button{
@@ -900,6 +929,7 @@
     .s-head{
       align-items: center;
       text-align: center;
+      padding-top: 30px;
     }
     .sponsors{
       color: #FFFFFF;
@@ -1087,17 +1117,17 @@
 
     }
 
-    .project-image1{
+    /* .project-image1{
       object-fit: contain;
-      width: 190px;
+      width: 400px;
       height: auto;
     }
 
     .project-image2{
       object-fit: contain;
-      width: 215px;
+      width: 400px;
       height: auto;
-    }
+    } */
 
     .project-line{
       margin-left: 4rem;
@@ -1475,6 +1505,7 @@
       gap: 2rem;
       margin-left: 2rem;
       margin-right: 2rem;
+      margin-top: 30px;
 
     }
     .s-img-button{
