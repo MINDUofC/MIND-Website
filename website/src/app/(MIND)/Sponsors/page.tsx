@@ -20,7 +20,7 @@ export default function Sponsors() {
             <div
                 style={{
                     overflowX: 'hidden',
-                    minHeight: '90vh',
+                    minHeight: '90dvh',
                     backgroundImage: "url('/images/grey.png')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
@@ -50,7 +50,7 @@ export default function Sponsors() {
                         a sponsor? <br/> Contact us at <b><u>uofc.mind@gmail.com</u></b>. Together, 
                         we can move minds, one neuron at a time.
                     </p>
-                    <div className="bg-white p-6 rounded-lg shadow-lg text-center fade-in pad s-pad">
+                    <div className="bg-white p-6 rounded-lg shadow-lg text-center fade-in pad s-pad s-marg">
                         <Image src="/images/engg-logo.png" alt="engg-logo" width={375} height={150} className="slide-in-right sponsors-engg" />
                         <Image src="/images/NP.png" alt="NP-logo" width={165} height={165} className="slide-in-right sponsort-nero" />
                     </div>
