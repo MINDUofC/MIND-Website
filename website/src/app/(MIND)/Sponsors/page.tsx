@@ -26,7 +26,6 @@ export default function Sponsors() {
                     backgroundPosition: "center",
                 }}
                     >
-
             <div className='s-heading'>
                 <h2 className="font-extrabold text-7xl slide-in-left drop-shadow-lg sponsors s-head">Our Sponsors</h2>
             </div>

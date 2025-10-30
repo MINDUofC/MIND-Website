@@ -203,6 +203,7 @@
   .s-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 2rem;
     margin: 0 auto;
     padding: 0 2rem;
@@ -750,6 +751,17 @@
     .nav-logo{
       width: 35px;
     } */
+
+    .s-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      margin: 0 auto;
+      padding: 0 2rem;
+      width: 100%;
+      max-width: 1800px;
+  }
     .other-bar{
       display: none;
 
@@ -1267,6 +1279,17 @@
 
   /* Medium Screens (601px - 1024px) */
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    .s-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      margin: 0 auto;
+      padding: 0 2rem;
+      width: 100%;
+      max-width: 1800px;
+  }
 
     .nav-logo{
       width: 75px;
