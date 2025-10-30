@@ -67,7 +67,7 @@ export default function Projects() {
                     </p>
                 </div>
 
-                <Image src="/images/MINDStream.PNG" alt="Projects" width={435} height={435} className="transform slide-in-right project-image1" />
+                <Image src="/images/MINDStream.png" alt="Projects" width={435} height={435} className="transform slide-in-right project-image1" />
 
             </div>
 
@@ -121,7 +121,7 @@ export default function Projects() {
                     Starting in Fall 2026, we’re launching our flagship, multi‑year, multi‑iteration project: a brain‑integrated exoskeleton arm designed to assist elbow flexion and extension, as well as forearm supination and pronation, for individuals whose motor intent is intact but whose neuromuscular systems limit force production (e.g., nerve injury or other impairments). Building on the foundations of our earlier projects, each a deliberate learning step, this effort unites our mechanical, electrical, and software teams into a tightly integrated program. The mechanical team will design and refine a comfortable, modular, and durable wearable arm with precise actuation and safety at its core. The electrical team will develop custom motor‑control PCBs and sensing modules to enable responsive, fail‑safe operation. The software team will bridge the BCI, sensors, and actuators with closed‑loop control, ensuring seamless communication from decoded intent to assisted movement. Together, we aim to translate brain signals into reliable, everyday function, responsibly, iteratively, and in close collaboration with users, pushing the boundaries of assistive technology to make meaningful motion possible.
                     </p>
                 </div>
-                <Image src="/images/arm.png" alt="Projects" width={400} height={400} className=" transform slide-in-right project-image2" />
+                <Image src="/images/ARM.png" alt="Projects" width={400} height={400} className=" transform slide-in-right project-image2" />
 
             </div>
         </div>
