@@ -196,6 +196,10 @@
     justify-content: center;
     align-items: center;
   }
+
+  .s-marg{
+    margin-bottom:30px
+  }
   .s-container {
     display: flex;
     justify-content: center;
@@ -325,7 +329,8 @@
   }
 
   .logo-image {
-    width: 500px;
+    background-color:#c2c2c2;
+    width: 350px;
     height: auto;
   }
 
@@ -411,7 +416,7 @@
     text-align: center;
     justify-content: center;
     margin: 2rem auto;
-    color: #5C8FFF;
+    color: white;
     width: 100%;
     font-size: 5.5rem; /* text-3xl */
   }
@@ -517,6 +522,7 @@
   }
   .s-head{
     align-items: center;
+    margin-top: 30px;
   }
   .s-img-button{
     display: flex;
@@ -688,6 +694,7 @@
 
     color: #c6e3f6;
     font-size: 1.125rem;
+    padding-right: 100px;
   }
 
   .project-para2{
@@ -696,17 +703,7 @@
     font-size: 1.125rem;
   }
 
-  .project-image1{
-    object-fit: contain;
-    width: 260px;
-    height: auto;
-  }
-
-  .project-image2{
-    object-fit: contain;
-    width: 300px;
-    height: auto;
-  }
+ 
 
   .project-line{
     color: #85C7F2;
@@ -916,6 +913,7 @@
       align-items: center;
       justify-content: center;
       margin: 1rem;
+      margin-top: 30px;
 
     }
     .s-img-button{
@@ -934,6 +932,8 @@
     }
     .s-head{
       align-items: center;
+      text-align: center;
+      padding-top: 30px;
     }
     .sponsors{
       color: #FFFFFF;
@@ -1121,17 +1121,17 @@
 
     }
 
-    .project-image1{
+    /* .project-image1{
       object-fit: contain;
-      width: 190px;
+      width: 400px;
       height: auto;
     }
 
     .project-image2{
       object-fit: contain;
-      width: 215px;
+      width: 400px;
       height: auto;
-    }
+    } */
 
     .project-line{
       margin-left: 4rem;
@@ -1509,6 +1509,7 @@
       gap: 2rem;
       margin-left: 2rem;
       margin-right: 2rem;
+      margin-top: 30px;
 
     }
     .s-img-button{
