@@ -43,7 +43,7 @@ export default function Team() {
                     development, neuroscience, and business to drive impactful neurotechnological solutions. Our executive team leads both social
                     impact initiatives and technical projects like the BC-Car. United by a shared vision, we push the
                     boundaries of brain-computer interface technology through innovation and community engagement,
-                    with every member playing a vital role in advancing MIND's mission.
+                    with every member playing a vital role in advancing MIND&apos;s mission.
                 </h1>
                 
             </div>
