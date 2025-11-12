@@ -48,12 +48,15 @@ export default function Projects() {
             </div>
             
             <div className="p2">
+
+                <Image src="/images/MINDStream.png" alt="Projects" width={435} height={435} className="transform slide-in-left project-image1" />
+
                 <div className="pt2">
-                    <p className="font-semibold drop-shadow-lg slide-in-left project-title1">
+                    <p className="font-semibold drop-shadow-lg slide-in-right project-title1">
                     MINDStream - EXG Analysis Software
                     </p>
 
-                    <p className="font-light drop-shadow-lg slide-in-left project-para1">
+                    <p className="font-light drop-shadow-lg slide-in-right project-para1">
                     Introducing MINDStream v1.0 – your complete EXG analysis solution. After months of innovation, we’re proud to announce that MINDStream is officially live and ready to download today. This powerful app is designed for comprehensive EXG signal analysis, giving you full control over brain, heart, and muscle data. Whether it’s EEG, ECG, or EMG, MINDStream lets you analyze and record signals with precision, apply frequency filters, FFT, and PSD for advanced insights, and run structured trials for research and experimentation. It also includes an integrated SLM chatbot, fine-tuned for EXG analysis, to assist with interpretation and workflows. MINDStream v1.0 marks a major milestone in signal processing and neuromuscular research, bringing cutting-edge tools into a single, intuitive platform.{" "}
                     <a
                         href="https://drive.google.com/drive/folders/1_QRY28tUKmzTXfE40aNRZEaNSN1qlqPe?usp=sharing"
@@ -67,7 +70,7 @@ export default function Projects() {
                     </p>
                 </div>
 
-                <Image src="/images/MINDStream.png" alt="Projects" width={435} height={435} className="transform slide-in-right project-image1" />
+                
 
             </div>
 
@@ -77,8 +80,8 @@ export default function Projects() {
 
             </div>
 
-            <div className='p2'>
-                <div className='pt2'>
+            <div className='p1'>
+                <div className='pt1'>
                     <p className="font-semibold drop-shadow-lg slide-in-left project-title2">MINDScope - Custom EEG Printed Circuit Board</p>
 
                     <p className="font-light drop-shadow-lg slide-in-left project-para1">
@@ -96,14 +99,17 @@ export default function Projects() {
             </div>
 
             <div className='p2'>
-                <div className='pt2'>
-                    <p className="font-semibold drop-shadow-lg slide-in-left project-title2">Adjustable EEG 10-10 System Headset</p>
 
-                    <p className="font-light drop-shadow-lg slide-in-left project-para1">
+                <Image src="/images/mechheadset.png" alt="Projects" width={400} height={400} className=" transform slide-in-left project-image2" />
+
+                <div className='pt2'>
+                    <p className="font-semibold drop-shadow-lg slide-in-right project-title2">Adjustable EEG 10-10 System Headset</p>
+
+                    <p className="font-light drop-shadow-lg slide-in-right project-para1">
                     Our mechanical engineers are developing a custom-built 10-10 EEG headset system, adapted from the previous 10-20 design and significantly improved for performance and comfort. This new headset features higher-quality electrodes with smaller diameters for enhanced signal accuracy and reduced interference. By increasing the number of electrode placement points, the 10-10 configuration offers greater spatial resolution compared to the traditional 10-20 system, enabling more precise brain signal mapping. With its refined design and expanded electrode layout, this headset sets a new standard for usability and data quality in EEG-based research and future neurotechnology applications.
                     </p>
                 </div>
-                <Image src="/images/mechheadset.png" alt="Projects" width={400} height={400} className=" transform slide-in-right project-image2" />
+                
 
             </div>
 
@@ -113,8 +119,8 @@ export default function Projects() {
 
             </div>
 
-            <div className='p2'>
-                <div className='pt2'>
+            <div className='p1'>
+                <div className='pt1'>
                     <p className="font-semibold drop-shadow-lg slide-in-left project-title2">The Exo Arm</p>
 
                     <p className="font-light drop-shadow-lg slide-in-left project-para1">
