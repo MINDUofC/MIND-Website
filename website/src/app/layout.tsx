@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import './globals.css';
 
-import { Header } from"@/Components/Header"
+import { Header } from "@/Components/Header";
+import { MetaclonedChat } from "@/Components/MetaclonedChat";
 
 const geistSans = Montserrat({
   variable: "--font-geist-sans",
@@ -34,6 +35,7 @@ export default async function RootLayout({
           <div className="">
             {children}
           </div>
+          <MetaclonedChat />
         </div>
       </body>
     </html>
