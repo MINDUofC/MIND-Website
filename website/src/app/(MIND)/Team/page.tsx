@@ -60,26 +60,6 @@ export default function Team() {
                 <h2 className="font-bold drop-shadow-lg fade-in team" style={{ fontSize: '3.6rem', marginBottom: '4.25rem' }}>Our Executive Team</h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full px-8 pb-8">
-                    {/* Taha Malik */}
-                    <div className="flex flex-col items-center text-center max-w-[280px]">
-                        <Image 
-                            src="/images/TahaM.jpg" 
-                            alt="Taha Malik" 
-                            width={250} 
-                            height={250}
-                            className="rounded-2xl border-4 border-white mb-4"
-                        />
-                        <h3 className="font-bold text-xl mb-2" style={{ color: '#0047B2' }}>
-                            Taha Malik
-                        </h3>
-                        <p className="font-semibold mb-2" style={{ color: '#2563B2' }}>
-                            Cofounder and Co-President
-                        </p>
-                        <p className="text-sm" style={{ color: '#0047B2' }}>
-                            Leads engagement, outreach, and neuroscience initiatives for the club.
-                        </p>
-                    </div>
-
                     {/* Nihar Trivedi */}
                     <div className="flex flex-col items-center text-center max-w-[280px]">
                         <Image 
@@ -97,6 +77,26 @@ export default function Team() {
                         </p>
                         <p className="text-sm" style={{ color: '#0047B2' }}>
                             Oversees engineering operations and technical project development.
+                        </p>
+                    </div>
+
+                    {/* Zeeshan Chaudry */}
+                    <div className="flex flex-col items-center text-center max-w-[280px]">
+                        <Image 
+                            src="/images/ZeeshanC.jpg" 
+                            alt="Zeeshan Chaudry" 
+                            width={250} 
+                            height={250}
+                            className="rounded-2xl border-4 border-white mb-4"
+                        />
+                        <h3 className="font-bold text-xl mb-2" style={{ color: '#0047B2' }}>
+                            Zeeshan Chaudry
+                        </h3>
+                        <p className="font-semibold mb-2" style={{ color: '#2563B2' }}>
+                            Cofounder and Co-President
+                        </p>
+                        <p className="text-sm" style={{ color: '#0047B2' }}>
+                            Leads engagement, outreach, and neuroscience initiatives for the club.
                         </p>
                     </div>
 
@@ -120,20 +120,20 @@ export default function Team() {
                         </p>
                     </div>
 
-                    {/* Zeeshan Chaudry */}
+                    {/* Shrey Narula */}
                     <div className="flex flex-col items-center text-center max-w-[280px]">
                         <Image 
-                            src="/images/ZeeshanC.jpg" 
-                            alt="Zeeshan Chaudry" 
+                            src="/images/personGeneral.jpg" 
+                            alt="Shrey Narula" 
                             width={250} 
                             height={250}
                             className="rounded-2xl border-4 border-white mb-4"
                         />
                         <h3 className="font-bold text-xl mb-2" style={{ color: '#0047B2' }}>
-                            Zeeshan Chaudry
+                            Shrey Narula
                         </h3>
                         <p className="font-semibold mb-2" style={{ color: '#2563B2' }}>
-                            Cofounder and Vice President of Neuroscience
+                            Vice President of Neuroscience
                         </p>
                         <p className="text-sm" style={{ color: '#0047B2' }}>
                             Conducts neuroscience research and presents at academic symposiums.
@@ -174,26 +174,6 @@ export default function Team() {
                 <h2 className="font-bold drop-shadow-lg fade-in team" style={{ fontSize: '3.6rem', marginBottom: '4.25rem' }}>Engineering Leads</h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full px-8 pb-8">
-                    {/* Usama Rasheed */}
-                    <div className="flex flex-col items-center text-center max-w-[280px]">
-                        <Image 
-                            src="/images/UsamaR.jpg" 
-                            alt="Usama Rasheed" 
-                            width={250} 
-                            height={250}
-                            className="rounded-2xl border-4 border-white mb-4"
-                        />
-                        <h3 className="font-bold text-xl mb-2" style={{ color: '#0047B2' }}>
-                            Usama Rasheed
-                        </h3>
-                        <p className="font-semibold mb-2" style={{ color: '#2563B2' }}>
-                            Signal Acquisition and Algorithm Design Engineering Lead
-                        </p>
-                        <p className="text-sm" style={{ color: '#0047B2' }}>
-                            Spearheads Neurodrive development and algorithm optimization efforts.
-                        </p>
-                    </div>
-
                     {/* Devon Calvin */}
                     <div className="flex flex-col items-center text-center max-w-[280px]">
                         <Image 
@@ -217,10 +197,10 @@ export default function Team() {
             </div>
         </div>
 
-        {/* Legacy Executives Section - COMMENTED OUT */}
+        {/* Legacy Executives Section */}
         {/* Separator Line */}
         
-        {/* <div className="w-full flex justify-center px-8">
+        <div className="w-full flex justify-center px-8">
             <hr className="border-t-2 border-white w-[95%]" />
         </div>
        
@@ -231,27 +211,42 @@ export default function Team() {
                 <h2 className="font-bold drop-shadow-lg fade-in team" style={{ fontSize: '3.6rem', marginBottom: '4.25rem' }}>Legacy Executives</h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full px-8 pb-8">
-                    Example Legacy Executive - Remove description when moving from active to legacy
-                    
+                    {/* Taha Malik */}
                     <div className="flex flex-col items-center text-center max-w-[280px]">
                         <Image 
-                            src="/images/personGeneral.jpg" 
-                            alt="John Doe" 
+                            src="/images/TahaM.jpg" 
+                            alt="Taha Malik" 
                             width={250} 
                             height={250}
                             className="rounded-2xl border-4 border-white mb-4"
                         />
                         <h3 className="font-bold text-xl mb-2" style={{ color: '#0047B2' }}>
-                            John Doe
+                            Taha Malik
                         </h3>
                         <p className="font-semibold mb-2" style={{ color: '#2563B2' }}>
-                            Former Co-President
+                            Former Cofounder and Co-President
                         </p>
                     </div>
-                   
-                *</div>
+
+                    {/* Usama Rasheed */}
+                    <div className="flex flex-col items-center text-center max-w-[280px]">
+                        <Image 
+                            src="/images/UsamaR.jpg" 
+                            alt="Usama Rasheed" 
+                            width={250} 
+                            height={250}
+                            className="rounded-2xl border-4 border-white mb-4"
+                        />
+                        <h3 className="font-bold text-xl mb-2" style={{ color: '#0047B2' }}>
+                            Usama Rasheed
+                        </h3>
+                        <p className="font-semibold mb-2" style={{ color: '#2563B2' }}>
+                            Former Signal Acquisition and Algorithm Design Engineering Lead
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div> */}
+        </div>
        
 
         <Footer />
